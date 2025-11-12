@@ -1,0 +1,116 @@
+{
+  "nombreLey": "COIPTR",
+  "totalArticulos": 22,
+  "articulos": [
+    {
+      "numero": 371,
+      "titulo": "Infracciones de tránsito",
+      "archivo": "articulo_371.txt"
+    },
+    {
+      "numero": 372,
+      "titulo": "Pena natural",
+      "archivo": "articulo_372.txt"
+    },
+    {
+      "numero": 373,
+      "titulo": "Responsabilidad de las o los peatones, pasajeros o controladores",
+      "archivo": "articulo_373.txt"
+    },
+    {
+      "numero": 374,
+      "titulo": "Agravantes en infracciones de tránsito",
+      "archivo": "articulo_374.txt"
+    },
+    {
+      "numero": 375,
+      "titulo": "Uso de vehículo para la comisión de delitos",
+      "archivo": "articulo_375.txt"
+    },
+    {
+      "numero": 376,
+      "titulo": "6",
+      "archivo": "articulo_376.txt"
+    },
+    {
+      "numero": 377,
+      "titulo": "Muerte culposa",
+      "archivo": "articulo_377.txt"
+    },
+    {
+      "numero": 378,
+      "titulo": "Muerte provocada por negligencia de contratista o ejecutor de obra",
+      "archivo": "articulo_378.txt"
+    },
+    {
+      "numero": 379,
+      "titulo": "Lesiones causadas por accidente de tránsito",
+      "archivo": "articulo_379.txt"
+    },
+    {
+      "numero": 380,
+      "titulo": "Daños materiales",
+      "archivo": "articulo_380.txt"
+    },
+    {
+      "numero": 381,
+      "titulo": "Exceso de pasajeros en transporte público",
+      "archivo": "articulo_381.txt"
+    },
+    {
+      "numero": 382,
+      "titulo": "Daños mecánicos previsibles en transporte público",
+      "archivo": "articulo_382.txt"
+    },
+    {
+      "numero": 383,
+      "titulo": "Conducción de vehículo con llantas en mal estado",
+      "archivo": "articulo_383.txt"
+    },
+    {
+      "numero": 384,
+      "titulo": "4",
+      "archivo": "articulo_384.txt"
+    },
+    {
+      "numero": 385,
+      "titulo": "Conducción de vehículo en estado de embriaguez",
+      "archivo": "articulo_385.txt"
+    },
+    {
+      "numero": 386,
+      "titulo": "Contravenciones de tránsito de primera clase",
+      "archivo": "articulo_386.txt"
+    },
+    {
+      "numero": 387,
+      "titulo": "Contravenciones de tránsito de segunda clase",
+      "archivo": "articulo_387.txt"
+    },
+    {
+      "numero": 388,
+      "titulo": "Contravenciones de tránsito de tercera clase",
+      "archivo": "articulo_388.txt"
+    },
+    {
+      "numero": 389,
+      "titulo": "Contravenciones de tránsito de cuarta clase",
+      "archivo": "articulo_389.txt"
+    },
+    {
+      "numero": 390,
+      "titulo": "Contravenciones de tránsito de quinta clase",
+      "archivo": "articulo_390.txt"
+    },
+    {
+      "numero": 391,
+      "titulo": "Contravenciones de tránsito de sexta clase",
+      "archivo": "articulo_391.txt"
+    },
+    {
+      "numero": 392,
+      "titulo": "Contravenciones de tránsito de séptima clase",
+      "archivo": "articulo_392.txt"
+    }
+  ]
+}

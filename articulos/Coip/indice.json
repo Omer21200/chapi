@@ -1,0 +1,4011 @@
+{
+  "nombreLey": "Coip",
+  "totalArticulos": 801,
+  "articulos": [
+    {
+      "numero": 1,
+      "titulo": "Finalidad",
+      "archivo": "articulo_001.txt"
+    },
+    {
+      "numero": 2,
+      "titulo": "Principios generales",
+      "archivo": "articulo_002.txt"
+    },
+    {
+      "numero": 3,
+      "titulo": "Principio de mínima intervención",
+      "archivo": "articulo_003.txt"
+    },
+    {
+      "numero": 4,
+      "titulo": "Dignidad humana y titularidad de derechos",
+      "archivo": "articulo_004.txt"
+    },
+    {
+      "numero": 5,
+      "titulo": "Principios procesales",
+      "archivo": "articulo_005.txt"
+    },
+    {
+      "numero": 6,
+      "titulo": "Garantías en caso de privación de libertad",
+      "archivo": "articulo_006.txt"
+    },
+    {
+      "numero": 7,
+      "titulo": "Separación",
+      "archivo": "articulo_007.txt"
+    },
+    {
+      "numero": 8,
+      "titulo": "Tratamiento",
+      "archivo": "articulo_008.txt"
+    },
+    {
+      "numero": 9,
+      "titulo": "Participación y voluntariedad",
+      "archivo": "articulo_009.txt"
+    },
+    {
+      "numero": 10,
+      "titulo": "Prohibición de privación de libertad en centros no autorizados",
+      "archivo": "articulo_010.txt"
+    },
+    {
+      "numero": 11,
+      "titulo": "Derechos",
+      "archivo": "articulo_011.txt"
+    },
+    {
+      "numero": 12,
+      "titulo": "Derechos y garantías de las personas privadas de libertad",
+      "archivo": "articulo_012.txt"
+    },
+    {
+      "numero": 13,
+      "titulo": "Interpretación",
+      "archivo": "articulo_013.txt"
+    },
+    {
+      "numero": 14,
+      "titulo": "Ámbito espacial de aplicación",
+      "archivo": "articulo_014.txt"
+    },
+    {
+      "numero": 15,
+      "titulo": "Ámbito personal de aplicación",
+      "archivo": "articulo_015.txt"
+    },
+    {
+      "numero": 16,
+      "titulo": "Ámbito temporal de aplicación",
+      "archivo": "articulo_016.txt"
+    },
+    {
+      "numero": 17,
+      "titulo": "Ámbito material de la ley penal",
+      "archivo": "articulo_017.txt"
+    },
+    {
+      "numero": 18,
+      "titulo": "Infracción penal",
+      "archivo": "articulo_018.txt"
+    },
+    {
+      "numero": 19,
+      "titulo": "Clasificación de las infracciones",
+      "archivo": "articulo_019.txt"
+    },
+    {
+      "numero": 20,
+      "titulo": "Concurso real de infracciones",
+      "archivo": "articulo_020.txt"
+    },
+    {
+      "numero": 21,
+      "titulo": "Concurso ideal de infracciones",
+      "archivo": "articulo_021.txt"
+    },
+    {
+      "numero": 22,
+      "titulo": "Conductas penalmente relevantes",
+      "archivo": "articulo_022.txt"
+    },
+    {
+      "numero": 23,
+      "titulo": "Modalidades de la conducta",
+      "archivo": "articulo_023.txt"
+    },
+    {
+      "numero": 24,
+      "titulo": "Causas de exclusión de la conducta",
+      "archivo": "articulo_024.txt"
+    },
+    {
+      "numero": 25,
+      "titulo": "Tipicidad",
+      "archivo": "articulo_025.txt"
+    },
+    {
+      "numero": 26,
+      "titulo": "Dolo",
+      "archivo": "articulo_026.txt"
+    },
+    {
+      "numero": 27,
+      "titulo": "Culpa",
+      "archivo": "articulo_027.txt"
+    },
+    {
+      "numero": 28,
+      "titulo": "Omisión dolosa",
+      "archivo": "articulo_028.txt"
+    },
+    {
+      "numero": 29,
+      "titulo": "Antijuridicidad",
+      "archivo": "articulo_029.txt"
+    },
+    {
+      "numero": 30,
+      "titulo": "Causas de exclusión de la antijuridicidad",
+      "archivo": "articulo_030.txt"
+    },
+    {
+      "numero": 31,
+      "titulo": "Exceso en las causas de exclusión de la antijuridicidad",
+      "archivo": "articulo_031.txt"
+    },
+    {
+      "numero": 32,
+      "titulo": "Estado de necesidad",
+      "archivo": "articulo_032.txt"
+    },
+    {
+      "numero": 33,
+      "titulo": "Legítima defensa",
+      "archivo": "articulo_033.txt"
+    },
+    {
+      "numero": 34,
+      "titulo": "Culpabilidad",
+      "archivo": "articulo_034.txt"
+    },
+    {
+      "numero": 35,
+      "titulo": "Causas de inculpabilidad",
+      "archivo": "articulo_035.txt"
+    },
+    {
+      "numero": 36,
+      "titulo": "Trastorno mental",
+      "archivo": "articulo_036.txt"
+    },
+    {
+      "numero": 37,
+      "titulo": "Responsabilidad en embriaguez o intoxicación",
+      "archivo": "articulo_037.txt"
+    },
+    {
+      "numero": 38,
+      "titulo": "Personas menores de dieciocho años",
+      "archivo": "articulo_038.txt"
+    },
+    {
+      "numero": 39,
+      "titulo": "Tentativa",
+      "archivo": "articulo_039.txt"
+    },
+    {
+      "numero": 40,
+      "titulo": "Desistimiento y arrepentimiento",
+      "archivo": "articulo_040.txt"
+    },
+    {
+      "numero": 41,
+      "titulo": "Participación",
+      "archivo": "articulo_041.txt"
+    },
+    {
+      "numero": 42,
+      "titulo": "Autores",
+      "archivo": "articulo_042.txt"
+    },
+    {
+      "numero": 43,
+      "titulo": "Cómplices",
+      "archivo": "articulo_043.txt"
+    },
+    {
+      "numero": 44,
+      "titulo": "Mecanismos de aplicación de atenuantes y agravantes",
+      "archivo": "articulo_044.txt"
+    },
+    {
+      "numero": 45,
+      "titulo": "Circunstancias atenuantes de la infracción",
+      "archivo": "articulo_045.txt"
+    },
+    {
+      "numero": 46,
+      "titulo": "Atenuante trascendental",
+      "archivo": "articulo_046.txt"
+    },
+    {
+      "numero": 47,
+      "titulo": "Circunstancias agravantes de la infracción",
+      "archivo": "articulo_047.txt"
+    },
+    {
+      "numero": 48,
+      "titulo": "8",
+      "archivo": "articulo_048.txt"
+    },
+    {
+      "numero": 49,
+      "titulo": "Responsabilidad de las personas jurídicas",
+      "archivo": "articulo_049.txt"
+    },
+    {
+      "numero": 50,
+      "titulo": "Concurrencia de la responsabilidad penal",
+      "archivo": "articulo_050.txt"
+    },
+    {
+      "numero": 51,
+      "titulo": "Pena",
+      "archivo": "articulo_051.txt"
+    },
+    {
+      "numero": 52,
+      "titulo": "Finalidad de la pena",
+      "archivo": "articulo_052.txt"
+    },
+    {
+      "numero": 53,
+      "titulo": "Legalidad de la pena",
+      "archivo": "articulo_053.txt"
+    },
+    {
+      "numero": 54,
+      "titulo": "Individualización de la pena",
+      "archivo": "articulo_054.txt"
+    },
+    {
+      "numero": 55,
+      "titulo": "Acumulación de penas",
+      "archivo": "articulo_055.txt"
+    },
+    {
+      "numero": 56,
+      "titulo": "Interdicción",
+      "archivo": "articulo_056.txt"
+    },
+    {
+      "numero": 57,
+      "titulo": "Reincidencia",
+      "archivo": "articulo_057.txt"
+    },
+    {
+      "numero": 58,
+      "titulo": "Clasificación",
+      "archivo": "articulo_058.txt"
+    },
+    {
+      "numero": 59,
+      "titulo": "Penas privativas de libertad",
+      "archivo": "articulo_059.txt"
+    },
+    {
+      "numero": 60,
+      "titulo": "Penas no privativas de libertad",
+      "archivo": "articulo_060.txt"
+    },
+    {
+      "numero": 61,
+      "titulo": "Expulsión y prohibición de retorno al territorio ecuatoriano para personas extranjeras",
+      "archivo": "articulo_061.txt"
+    },
+    {
+      "numero": 62,
+      "titulo": "Tratamiento, capacitación, programa o curso",
+      "archivo": "articulo_062.txt"
+    },
+    {
+      "numero": 63,
+      "titulo": "Servicio comunitario",
+      "archivo": "articulo_063.txt"
+    },
+    {
+      "numero": 64,
+      "titulo": "Prohibición de ejercer la patria potestad o guardas en general",
+      "archivo": "articulo_064.txt"
+    },
+    {
+      "numero": 65,
+      "titulo": "Inhabilitación para el ejercicio de profesión, oficio, empleo o cargo público",
+      "archivo": "articulo_065.txt"
+    },
+    {
+      "numero": 66,
+      "titulo": "Prohibición de salir del domicilio o lugar determinado",
+      "archivo": "articulo_066.txt"
+    },
+    {
+      "numero": 67,
+      "titulo": "Suspensión de la licencia para conducir",
+      "archivo": "articulo_067.txt"
+    },
+    {
+      "numero": 68,
+      "titulo": "Pérdida de los derechos de participación",
+      "archivo": "articulo_068.txt"
+    },
+    {
+      "numero": 69,
+      "titulo": "Penas restrictivas de los derechos de propiedad",
+      "archivo": "articulo_069.txt"
+    },
+    {
+      "numero": 70,
+      "titulo": "Aplicación de multas",
+      "archivo": "articulo_070.txt"
+    },
+    {
+      "numero": 71,
+      "titulo": "Penas para las personas jurídicas",
+      "archivo": "articulo_071.txt"
+    },
+    {
+      "numero": 72,
+      "titulo": "Formas de extinción",
+      "archivo": "articulo_072.txt"
+    },
+    {
+      "numero": 73,
+      "titulo": "Indulto o amnistía",
+      "archivo": "articulo_073.txt"
+    },
+    {
+      "numero": 74,
+      "titulo": "Indulto presidencial",
+      "archivo": "articulo_074.txt"
+    },
+    {
+      "numero": 75,
+      "titulo": "Prescripción de la pena",
+      "archivo": "articulo_075.txt"
+    },
+    {
+      "numero": 76,
+      "titulo": "Internamiento en un hospital psiquiátrico",
+      "archivo": "articulo_076.txt"
+    },
+    {
+      "numero": 77,
+      "titulo": "Reparación integral de los daños",
+      "archivo": "articulo_077.txt"
+    },
+    {
+      "numero": 78,
+      "titulo": "Mecanismos de reparación integral",
+      "archivo": "articulo_078.txt"
+    },
+    {
+      "numero": 79,
+      "titulo": "Genocidio",
+      "archivo": "articulo_079.txt"
+    },
+    {
+      "numero": 80,
+      "titulo": "Etnocidio",
+      "archivo": "articulo_080.txt"
+    },
+    {
+      "numero": 81,
+      "titulo": "Exterminio",
+      "archivo": "articulo_081.txt"
+    },
+    {
+      "numero": 82,
+      "titulo": "Esclavitud",
+      "archivo": "articulo_082.txt"
+    },
+    {
+      "numero": 83,
+      "titulo": "Deportación o traslado forzoso de población",
+      "archivo": "articulo_083.txt"
+    },
+    {
+      "numero": 84,
+      "titulo": "Desaparición forzada",
+      "archivo": "articulo_084.txt"
+    },
+    {
+      "numero": 85,
+      "titulo": "Ejecución extrajudicial",
+      "archivo": "articulo_085.txt"
+    },
+    {
+      "numero": 86,
+      "titulo": "Persecución",
+      "archivo": "articulo_086.txt"
+    },
+    {
+      "numero": 87,
+      "titulo": "Apartheid",
+      "archivo": "articulo_087.txt"
+    },
+    {
+      "numero": 88,
+      "titulo": "Agresión",
+      "archivo": "articulo_088.txt"
+    },
+    {
+      "numero": 89,
+      "titulo": "Delitos de lesa humanidad",
+      "archivo": "articulo_089.txt"
+    },
+    {
+      "numero": 90,
+      "titulo": "Sanción para la persona jurídica",
+      "archivo": "articulo_090.txt"
+    },
+    {
+      "numero": 91,
+      "titulo": "Trata de personas",
+      "archivo": "articulo_091.txt"
+    },
+    {
+      "numero": 92,
+      "titulo": "Sanción para el delito de trata de personas",
+      "archivo": "articulo_092.txt"
+    },
+    {
+      "numero": 93,
+      "titulo": "Principio de no punibilidad de la víctima de trata",
+      "archivo": "articulo_093.txt"
+    },
+    {
+      "numero": 94,
+      "titulo": "Sanción para la persona jurídica",
+      "archivo": "articulo_094.txt"
+    },
+    {
+      "numero": 95,
+      "titulo": "Extracción y tratamiento ilegal de órganos y tejidos",
+      "archivo": "articulo_095.txt"
+    },
+    {
+      "numero": 96,
+      "titulo": "Tráfico de órganos",
+      "archivo": "articulo_096.txt"
+    },
+    {
+      "numero": 97,
+      "titulo": "Publicidad de tráfico de órganos",
+      "archivo": "articulo_097.txt"
+    },
+    {
+      "numero": 98,
+      "titulo": "Realización de procedimientos de trasplante sin autorización",
+      "archivo": "articulo_098.txt"
+    },
+    {
+      "numero": 99,
+      "titulo": "Turismo para la extracción, tratamiento ilegal o comercio de órganos",
+      "archivo": "articulo_099.txt"
+    },
+    {
+      "numero": 100,
+      "titulo": "Explotación sexual de personas",
+      "archivo": "articulo_100.txt"
+    },
+    {
+      "numero": 101,
+      "titulo": "Prostitución forzada",
+      "archivo": "articulo_101.txt"
+    },
+    {
+      "numero": 102,
+      "titulo": "Turismo sexual",
+      "archivo": "articulo_102.txt"
+    },
+    {
+      "numero": 103,
+      "titulo": "Pornografía con utilización de niñas, niños o adolescentes",
+      "archivo": "articulo_103.txt"
+    },
+    {
+      "numero": 104,
+      "titulo": "Comercialización de pornografía con utilización de niñas, niños o adolescentes",
+      "archivo": "articulo_104.txt"
+    },
+    {
+      "numero": 105,
+      "titulo": "Trabajos forzados u otras formas de explotación laboral",
+      "archivo": "articulo_105.txt"
+    },
+    {
+      "numero": 106,
+      "titulo": "Promesa de matrimonio o unión de hecho servil",
+      "archivo": "articulo_106.txt"
+    },
+    {
+      "numero": 107,
+      "titulo": "Adopción ilegal",
+      "archivo": "articulo_107.txt"
+    },
+    {
+      "numero": 108,
+      "titulo": "Empleo de personas para mendicidad",
+      "archivo": "articulo_108.txt"
+    },
+    {
+      "numero": 109,
+      "titulo": "Sanción a la persona jurídica",
+      "archivo": "articulo_109.txt"
+    },
+    {
+      "numero": 110,
+      "titulo": "Disposiciones comunes",
+      "archivo": "articulo_110.txt"
+    },
+    {
+      "numero": 111,
+      "titulo": "Personas protegidas por el Derecho Internacional Humanitario",
+      "archivo": "articulo_111.txt"
+    },
+    {
+      "numero": 112,
+      "titulo": "Bienes protegidos por el Derecho Internacional Humanitario",
+      "archivo": "articulo_112.txt"
+    },
+    {
+      "numero": 113,
+      "titulo": "Armas prohibidas por el Derecho Internacional Humanitario",
+      "archivo": "articulo_113.txt"
+    },
+    {
+      "numero": 114,
+      "titulo": "Aplicación de disposiciones en conflicto armado internacional o no internacional",
+      "archivo": "articulo_114.txt"
+    },
+    {
+      "numero": 115,
+      "titulo": "Homicidio de persona protegida",
+      "archivo": "articulo_115.txt"
+    },
+    {
+      "numero": 116,
+      "titulo": "Atentado a la integridad sexual y reproductiva de persona protegida",
+      "archivo": "articulo_116.txt"
+    },
+    {
+      "numero": 117,
+      "titulo": "Lesión a la integridad física de persona protegida",
+      "archivo": "articulo_117.txt"
+    },
+    {
+      "numero": 118,
+      "titulo": "Mutilaciones o experimentos en persona protegida",
+      "archivo": "articulo_118.txt"
+    },
+    {
+      "numero": 119,
+      "titulo": "Tortura y tratos crueles, inhumanos o degradantes en persona protegida",
+      "archivo": "articulo_119.txt"
+    },
+    {
+      "numero": 120,
+      "titulo": "Castigos colectivos en persona protegida",
+      "archivo": "articulo_120.txt"
+    },
+    {
+      "numero": 121,
+      "titulo": "Empleo de métodos prohibidos en la conducción de conflicto armado",
+      "archivo": "articulo_121.txt"
+    },
+    {
+      "numero": 122,
+      "titulo": "Utilización de armas prohibidas",
+      "archivo": "articulo_122.txt"
+    },
+    {
+      "numero": 123,
+      "titulo": "Ataque a bienes protegidos",
+      "archivo": "articulo_123.txt"
+    },
+    {
+      "numero": 124,
+      "titulo": "Obstaculización de tareas sanitarias y humanitarias",
+      "archivo": "articulo_124.txt"
+    },
+    {
+      "numero": 125,
+      "titulo": "Privación de libertad de persona protegida",
+      "archivo": "articulo_125.txt"
+    },
+    {
+      "numero": 126,
+      "titulo": "Ataque a persona protegida con fines terroristas",
+      "archivo": "articulo_126.txt"
+    },
+    {
+      "numero": 127,
+      "titulo": "Reclutamiento de niños, niñas y adolescentes",
+      "archivo": "articulo_127.txt"
+    },
+    {
+      "numero": 128,
+      "titulo": "Toma de rehenes",
+      "archivo": "articulo_128.txt"
+    },
+    {
+      "numero": 129,
+      "titulo": "9",
+      "archivo": "articulo_129.txt"
+    },
+    {
+      "numero": 130,
+      "titulo": "Traslado arbitrario o ilegal",
+      "archivo": "articulo_130.txt"
+    },
+    {
+      "numero": 131,
+      "titulo": "Abolición y suspensión de derechos de persona protegida",
+      "archivo": "articulo_131.txt"
+    },
+    {
+      "numero": 132,
+      "titulo": "Modificación ambiental con fines militares",
+      "archivo": "articulo_132.txt"
+    },
+    {
+      "numero": 133,
+      "titulo": "Denegación de garantías judiciales de persona protegida",
+      "archivo": "articulo_133.txt"
+    },
+    {
+      "numero": 134,
+      "titulo": "Omisión de medidas de socorro y asistencia humanitaria",
+      "archivo": "articulo_134.txt"
+    },
+    {
+      "numero": 135,
+      "titulo": "Omisión de medidas de protección",
+      "archivo": "articulo_135.txt"
+    },
+    {
+      "numero": 136,
+      "titulo": "Contribuciones arbitrarias",
+      "archivo": "articulo_136.txt"
+    },
+    {
+      "numero": 137,
+      "titulo": "Prolongación de hostilidades",
+      "archivo": "articulo_137.txt"
+    },
+    {
+      "numero": 138,
+      "titulo": "Destrucción o apropiación de bienes de la parte adversa",
+      "archivo": "articulo_138.txt"
+    },
+    {
+      "numero": 139,
+      "titulo": "Abuso de emblemas",
+      "archivo": "articulo_139.txt"
+    },
+    {
+      "numero": 140,
+      "titulo": "Asesinato",
+      "archivo": "articulo_140.txt"
+    },
+    {
+      "numero": 141,
+      "titulo": "Femicidio",
+      "archivo": "articulo_141.txt"
+    },
+    {
+      "numero": 142,
+      "titulo": "Circunstancias agravantes del femicidio",
+      "archivo": "articulo_142.txt"
+    },
+    {
+      "numero": 143,
+      "titulo": "Sicariato",
+      "archivo": "articulo_143.txt"
+    },
+    {
+      "numero": 144,
+      "titulo": "Homicidio",
+      "archivo": "articulo_144.txt"
+    },
+    {
+      "numero": 145,
+      "titulo": "Homicidio culposo",
+      "archivo": "articulo_145.txt"
+    },
+    {
+      "numero": 146,
+      "titulo": "Homicidio culposo por mala práctica profesional",
+      "archivo": "articulo_146.txt"
+    },
+    {
+      "numero": 147,
+      "titulo": "Aborto con muerte",
+      "archivo": "articulo_147.txt"
+    },
+    {
+      "numero": 148,
+      "titulo": "Aborto no consentido",
+      "archivo": "articulo_148.txt"
+    },
+    {
+      "numero": 149,
+      "titulo": "Aborto consentido",
+      "archivo": "articulo_149.txt"
+    },
+    {
+      "numero": 150,
+      "titulo": "Aborto no punible",
+      "archivo": "articulo_150.txt"
+    },
+    {
+      "numero": 151,
+      "titulo": "Tortura",
+      "archivo": "articulo_151.txt"
+    },
+    {
+      "numero": 152,
+      "titulo": "Lesiones",
+      "archivo": "articulo_152.txt"
+    },
+    {
+      "numero": 153,
+      "titulo": "Abandono de persona",
+      "archivo": "articulo_153.txt"
+    },
+    {
+      "numero": 154,
+      "titulo": "Intimidación",
+      "archivo": "articulo_154.txt"
+    },
+    {
+      "numero": 155,
+      "titulo": "Violencia contra la mujer o miembros del núcleo familiar",
+      "archivo": "articulo_155.txt"
+    },
+    {
+      "numero": 156,
+      "titulo": "Violencia física contra la mujer o miembros del núcleo familiar",
+      "archivo": "articulo_156.txt"
+    },
+    {
+      "numero": 157,
+      "titulo": "7",
+      "archivo": "articulo_157.txt"
+    },
+    {
+      "numero": 158,
+      "titulo": "Violencia sexual contra la mujer o miembros del núcleo familiar",
+      "archivo": "articulo_158.txt"
+    },
+    {
+      "numero": 159,
+      "titulo": "Contravenciones de Violencia contra la mujer o miembros del núcleo familiar",
+      "archivo": "articulo_159.txt"
+    },
+    {
+      "numero": 160,
+      "titulo": "Privación ilegal de libertad",
+      "archivo": "articulo_160.txt"
+    },
+    {
+      "numero": 161,
+      "titulo": "Secuestro",
+      "archivo": "articulo_161.txt"
+    },
+    {
+      "numero": 162,
+      "titulo": "Secuestro extorsivo",
+      "archivo": "articulo_162.txt"
+    },
+    {
+      "numero": 163,
+      "titulo": "Simulación de secuestro",
+      "archivo": "articulo_163.txt"
+    },
+    {
+      "numero": 164,
+      "titulo": "Inseminación no consentida",
+      "archivo": "articulo_164.txt"
+    },
+    {
+      "numero": 165,
+      "titulo": "Privación forzada de capacidad de reproducción",
+      "archivo": "articulo_165.txt"
+    },
+    {
+      "numero": 166,
+      "titulo": "Acoso sexual",
+      "archivo": "articulo_166.txt"
+    },
+    {
+      "numero": 167,
+      "titulo": "Estupro",
+      "archivo": "articulo_167.txt"
+    },
+    {
+      "numero": 168,
+      "titulo": "Distribución de material pornográfico a niñas, niños y adolescentes",
+      "archivo": "articulo_168.txt"
+    },
+    {
+      "numero": 169,
+      "titulo": "Corrupción de niñas, niños y adolescentes",
+      "archivo": "articulo_169.txt"
+    },
+    {
+      "numero": 170,
+      "titulo": "Abuso sexual",
+      "archivo": "articulo_170.txt"
+    },
+    {
+      "numero": 171,
+      "titulo": "Violación",
+      "archivo": "articulo_171.txt"
+    },
+    {
+      "numero": 172,
+      "titulo": "Utilización de personas para exhibición pública con fines de naturaleza sexual",
+      "archivo": "articulo_172.txt"
+    },
+    {
+      "numero": 173,
+      "titulo": "Contacto con finalidad sexual con menores de dieciocho años por medios electrónicos",
+      "archivo": "articulo_173.txt"
+    },
+    {
+      "numero": 174,
+      "titulo": "Oferta de servicios sexuales con menores de dieciocho años por medios electrónicos",
+      "archivo": "articulo_174.txt"
+    },
+    {
+      "numero": 175,
+      "titulo": "Disposiciones comunes a los delitos contra la integridad sexual y reproductiva",
+      "archivo": "articulo_175.txt"
+    },
+    {
+      "numero": 176,
+      "titulo": "Discriminación",
+      "archivo": "articulo_176.txt"
+    },
+    {
+      "numero": 177,
+      "titulo": "Actos de odio",
+      "archivo": "articulo_177.txt"
+    },
+    {
+      "numero": 178,
+      "titulo": "Violación a la intimidad",
+      "archivo": "articulo_178.txt"
+    },
+    {
+      "numero": 179,
+      "titulo": "Revelación de secreto",
+      "archivo": "articulo_179.txt"
+    },
+    {
+      "numero": 180,
+      "titulo": "Difusión de información de circulación restringida",
+      "archivo": "articulo_180.txt"
+    },
+    {
+      "numero": 181,
+      "titulo": "Violación de propiedad privada",
+      "archivo": "articulo_181.txt"
+    },
+    {
+      "numero": 182,
+      "titulo": "Calumnia",
+      "archivo": "articulo_182.txt"
+    },
+    {
+      "numero": 183,
+      "titulo": "Restricción a la libertad de expresión",
+      "archivo": "articulo_183.txt"
+    },
+    {
+      "numero": 184,
+      "titulo": "Restricción a la libertad de culto",
+      "archivo": "articulo_184.txt"
+    },
+    {
+      "numero": 185,
+      "titulo": "Extorsión",
+      "archivo": "articulo_185.txt"
+    },
+    {
+      "numero": 186,
+      "titulo": "Estafa",
+      "archivo": "articulo_186.txt"
+    },
+    {
+      "numero": 187,
+      "titulo": "Abuso de confianza",
+      "archivo": "articulo_187.txt"
+    },
+    {
+      "numero": 188,
+      "titulo": "Aprovechamiento ilícito de servicios públicos",
+      "archivo": "articulo_188.txt"
+    },
+    {
+      "numero": 189,
+      "titulo": "Robo",
+      "archivo": "articulo_189.txt"
+    },
+    {
+      "numero": 190,
+      "titulo": "Apropiación fraudulenta por medios electrónicos",
+      "archivo": "articulo_190.txt"
+    },
+    {
+      "numero": 191,
+      "titulo": "Reprogramación o modificación de información de equipos terminales móviles",
+      "archivo": "articulo_191.txt"
+    },
+    {
+      "numero": 192,
+      "titulo": "Intercambio, comercialización o compra de información de equipos terminales móviles",
+      "archivo": "articulo_192.txt"
+    },
+    {
+      "numero": 193,
+      "titulo": "Reemplazo de identificación de terminales móviles",
+      "archivo": "articulo_193.txt"
+    },
+    {
+      "numero": 194,
+      "titulo": "Comercialización ilícita de terminales móviles",
+      "archivo": "articulo_194.txt"
+    },
+    {
+      "numero": 195,
+      "titulo": "Infraestructura ilícita",
+      "archivo": "articulo_195.txt"
+    },
+    {
+      "numero": 196,
+      "titulo": "Hurto",
+      "archivo": "articulo_196.txt"
+    },
+    {
+      "numero": 197,
+      "titulo": "Hurto de bienes de uso policial o militar",
+      "archivo": "articulo_197.txt"
+    },
+    {
+      "numero": 198,
+      "titulo": "Hurto de lo requisado",
+      "archivo": "articulo_198.txt"
+    },
+    {
+      "numero": 199,
+      "titulo": "Abigeato",
+      "archivo": "articulo_199.txt"
+    },
+    {
+      "numero": 200,
+      "titulo": "Usurpación",
+      "archivo": "articulo_200.txt"
+    },
+    {
+      "numero": 201,
+      "titulo": "Ocupación, uso ilegal de suelo o tráfico de tierras",
+      "archivo": "articulo_201.txt"
+    },
+    {
+      "numero": 202,
+      "titulo": "Receptación",
+      "archivo": "articulo_202.txt"
+    },
+    {
+      "numero": 203,
+      "titulo": "Comercialización de bienes de uso policial o militar hurtados o robados",
+      "archivo": "articulo_203.txt"
+    },
+    {
+      "numero": 204,
+      "titulo": "Daño a bien ajeno",
+      "archivo": "articulo_204.txt"
+    },
+    {
+      "numero": 205,
+      "titulo": "Insolvencia fraudulenta",
+      "archivo": "articulo_205.txt"
+    },
+    {
+      "numero": 206,
+      "titulo": "Quiebra",
+      "archivo": "articulo_206.txt"
+    },
+    {
+      "numero": 207,
+      "titulo": "Quiebra fraudulenta de persona jurídica",
+      "archivo": "articulo_207.txt"
+    },
+    {
+      "numero": 208,
+      "titulo": "Ocultamiento y otros actos fraudulentos en beneficio del fallido",
+      "archivo": "articulo_208.txt"
+    },
+    {
+      "numero": 209,
+      "titulo": "Contravención de hurto",
+      "archivo": "articulo_209.txt"
+    },
+    {
+      "numero": 210,
+      "titulo": "Contravención de abigeato",
+      "archivo": "articulo_210.txt"
+    },
+    {
+      "numero": 211,
+      "titulo": "Supresión, alteración o suposición de la identidad y estado civil",
+      "archivo": "articulo_211.txt"
+    },
+    {
+      "numero": 212,
+      "titulo": "Suplantación de identidad",
+      "archivo": "articulo_212.txt"
+    },
+    {
+      "numero": 213,
+      "titulo": "Tráfico ilícito de migrantes",
+      "archivo": "articulo_213.txt"
+    },
+    {
+      "numero": 214,
+      "titulo": "Manipulación genética",
+      "archivo": "articulo_214.txt"
+    },
+    {
+      "numero": 215,
+      "titulo": "Daño permanente a la salud",
+      "archivo": "articulo_215.txt"
+    },
+    {
+      "numero": 216,
+      "titulo": "Contaminación de sustancias destinadas al consumo humano",
+      "archivo": "articulo_216.txt"
+    },
+    {
+      "numero": 217,
+      "titulo": "7",
+      "archivo": "articulo_217.txt"
+    },
+    {
+      "numero": 218,
+      "titulo": "Desatención del servicio de salud",
+      "archivo": "articulo_218.txt"
+    },
+    {
+      "numero": 219,
+      "titulo": "Producción ilícita de sustancias catalogadas sujetas a fiscalización",
+      "archivo": "articulo_219.txt"
+    },
+    {
+      "numero": 220,
+      "titulo": "Tráfico ilícito de sustancias catalogadas sujetas a fiscalización",
+      "archivo": "articulo_220.txt"
+    },
+    {
+      "numero": 221,
+      "titulo": "1",
+      "archivo": "articulo_221.txt"
+    },
+    {
+      "numero": 222,
+      "titulo": "Siembra o cultivo",
+      "archivo": "articulo_222.txt"
+    },
+    {
+      "numero": 223,
+      "titulo": "Suministro de sustancias estupefacientes, psicotrópicas o preparados que las contengan",
+      "archivo": "articulo_223.txt"
+    },
+    {
+      "numero": 224,
+      "titulo": "Prescripción injustificada",
+      "archivo": "articulo_224.txt"
+    },
+    {
+      "numero": 225,
+      "titulo": "Acciones de mala fe para involucrar en delitos",
+      "archivo": "articulo_225.txt"
+    },
+    {
+      "numero": 226,
+      "titulo": "Destrucción de objetos materiales",
+      "archivo": "articulo_226.txt"
+    },
+    {
+      "numero": 227,
+      "titulo": "Sustancias catalogadas sujetas a fiscalización",
+      "archivo": "articulo_227.txt"
+    },
+    {
+      "numero": 228,
+      "titulo": "Cantidad admisible para uso o consumo personal",
+      "archivo": "articulo_228.txt"
+    },
+    {
+      "numero": 229,
+      "titulo": "Revelación ilegal de base de datos",
+      "archivo": "articulo_229.txt"
+    },
+    {
+      "numero": 230,
+      "titulo": "Interceptación ilegal de datos",
+      "archivo": "articulo_230.txt"
+    },
+    {
+      "numero": 231,
+      "titulo": "Transferencia electrónica de activo patrimonial",
+      "archivo": "articulo_231.txt"
+    },
+    {
+      "numero": 232,
+      "titulo": "Ataque a la integridad de sistemas informáticos",
+      "archivo": "articulo_232.txt"
+    },
+    {
+      "numero": 233,
+      "titulo": "Delitos contra la información pública reservada legalmente",
+      "archivo": "articulo_233.txt"
+    },
+    {
+      "numero": 234,
+      "titulo": "Acceso no consentido a un sistema informático, telemático o de telecomunicaciones",
+      "archivo": "articulo_234.txt"
+    },
+    {
+      "numero": 235,
+      "titulo": "Engaño al comprador respecto a la identidad o calidad de las cosas o servicios vendidos",
+      "archivo": "articulo_235.txt"
+    },
+    {
+      "numero": 236,
+      "titulo": "6",
+      "archivo": "articulo_236.txt"
+    },
+    {
+      "numero": 237,
+      "titulo": "Destrucción de bienes del patrimonio cultural",
+      "archivo": "articulo_237.txt"
+    },
+    {
+      "numero": 238,
+      "titulo": "Transporte y comercialización ilícitos y tráfico de bienes del patrimonio cultural",
+      "archivo": "articulo_238.txt"
+    },
+    {
+      "numero": 239,
+      "titulo": "Falsificación o adulteración de bienes del patrimonio cultural",
+      "archivo": "articulo_239.txt"
+    },
+    {
+      "numero": 240,
+      "titulo": "Sustracción de bienes del patrimonio cultural",
+      "archivo": "articulo_240.txt"
+    },
+    {
+      "numero": 241,
+      "titulo": "Impedimento o limitación del derecho a huelga",
+      "archivo": "articulo_241.txt"
+    },
+    {
+      "numero": 242,
+      "titulo": "Retención ilegal de aportación a la seguridad social",
+      "archivo": "articulo_242.txt"
+    },
+    {
+      "numero": 243,
+      "titulo": "3",
+      "archivo": "articulo_243.txt"
+    },
+    {
+      "numero": 244,
+      "titulo": "Falta de afiliación al Instituto Ecuatoriano de Seguridad Social",
+      "archivo": "articulo_244.txt"
+    },
+    {
+      "numero": 245,
+      "titulo": "Invasión de áreas de importancia ecológica",
+      "archivo": "articulo_245.txt"
+    },
+    {
+      "numero": 246,
+      "titulo": "Incendios forestales y de vegetación",
+      "archivo": "articulo_246.txt"
+    },
+    {
+      "numero": 247,
+      "titulo": "Delitos contra la flora y fauna silvestres",
+      "archivo": "articulo_247.txt"
+    },
+    {
+      "numero": 248,
+      "titulo": "Delitos contra los recursos del patrimonio genético nacional",
+      "archivo": "articulo_248.txt"
+    },
+    {
+      "numero": 249,
+      "titulo": "Lesiones a animales que formen parte del ámbito de la fauna urbana",
+      "archivo": "articulo_249.txt"
+    },
+    {
+      "numero": 250,
+      "titulo": "Abuso sexual a animales que forman parte del ámbito de la fauna urbana",
+      "archivo": "articulo_250.txt"
+    },
+    {
+      "numero": 251,
+      "titulo": "Delitos contra el agua",
+      "archivo": "articulo_251.txt"
+    },
+    {
+      "numero": 252,
+      "titulo": "Delitos contra suelo",
+      "archivo": "articulo_252.txt"
+    },
+    {
+      "numero": 253,
+      "titulo": "Contaminación del aire",
+      "archivo": "articulo_253.txt"
+    },
+    {
+      "numero": 254,
+      "titulo": "4",
+      "archivo": "articulo_254.txt"
+    },
+    {
+      "numero": 255,
+      "titulo": "Falsedad u ocultamiento de información ambiental",
+      "archivo": "articulo_255.txt"
+    },
+    {
+      "numero": 256,
+      "titulo": "Definiciones y normas de la Autoridad Ambiental Nacional",
+      "archivo": "articulo_256.txt"
+    },
+    {
+      "numero": 257,
+      "titulo": "Obligación de restauración y reparación",
+      "archivo": "articulo_257.txt"
+    },
+    {
+      "numero": 258,
+      "titulo": "Pena para las personas jurídicas",
+      "archivo": "articulo_258.txt"
+    },
+    {
+      "numero": 259,
+      "titulo": "Atenuantes",
+      "archivo": "articulo_259.txt"
+    },
+    {
+      "numero": 260,
+      "titulo": "Actividad ilícita de recursos mineros",
+      "archivo": "articulo_260.txt"
+    },
+    {
+      "numero": 261,
+      "titulo": "Financiamiento o suministro de maquinarias para extracción ilícita de recursos mineros",
+      "archivo": "articulo_261.txt"
+    },
+    {
+      "numero": 262,
+      "titulo": "Paralización del servicio de distribución de combustibles",
+      "archivo": "articulo_262.txt"
+    },
+    {
+      "numero": 263,
+      "titulo": "3",
+      "archivo": "articulo_263.txt"
+    },
+    {
+      "numero": 264,
+      "titulo": "4",
+      "archivo": "articulo_264.txt"
+    },
+    {
+      "numero": 265,
+      "titulo": "5",
+      "archivo": "articulo_265.txt"
+    },
+    {
+      "numero": 266,
+      "titulo": "Sustracción de hidrocarburos",
+      "archivo": "articulo_266.txt"
+    },
+    {
+      "numero": 267,
+      "titulo": "Sanción a la persona jurídica",
+      "archivo": "articulo_267.txt"
+    },
+    {
+      "numero": 268,
+      "titulo": "Prevaricato de las o los jueces o árbitros",
+      "archivo": "articulo_268.txt"
+    },
+    {
+      "numero": 269,
+      "titulo": "Prevaricato de las o los abogados",
+      "archivo": "articulo_269.txt"
+    },
+    {
+      "numero": 270,
+      "titulo": "Perjurio y falso testimonio",
+      "archivo": "articulo_270.txt"
+    },
+    {
+      "numero": 271,
+      "titulo": "Acusación o denuncia maliciosa",
+      "archivo": "articulo_271.txt"
+    },
+    {
+      "numero": 272,
+      "titulo": "Fraude procesal",
+      "archivo": "articulo_272.txt"
+    },
+    {
+      "numero": 273,
+      "titulo": "Revelación de identidad de agente encubierto, informante, testigo o persona protegida",
+      "archivo": "articulo_273.txt"
+    },
+    {
+      "numero": 274,
+      "titulo": "Evasión",
+      "archivo": "articulo_274.txt"
+    },
+    {
+      "numero": 275,
+      "titulo": "Ingreso de artículos prohibidos",
+      "archivo": "articulo_275.txt"
+    },
+    {
+      "numero": 276,
+      "titulo": "Omisión de denuncia en razón de la profesión, cargo u oficio",
+      "archivo": "articulo_276.txt"
+    },
+    {
+      "numero": 277,
+      "titulo": "Omisión de denuncia",
+      "archivo": "articulo_277.txt"
+    },
+    {
+      "numero": 278,
+      "titulo": "Peculado",
+      "archivo": "articulo_278.txt"
+    },
+    {
+      "numero": 279,
+      "titulo": "Enriquecimiento ilícito",
+      "archivo": "articulo_279.txt"
+    },
+    {
+      "numero": 280,
+      "titulo": "Cohecho",
+      "archivo": "articulo_280.txt"
+    },
+    {
+      "numero": 281,
+      "titulo": "Concusión",
+      "archivo": "articulo_281.txt"
+    },
+    {
+      "numero": 282,
+      "titulo": "Incumplimiento de decisiones legítimas de autoridad competente",
+      "archivo": "articulo_282.txt"
+    },
+    {
+      "numero": 283,
+      "titulo": "Ataque o resistencia",
+      "archivo": "articulo_283.txt"
+    },
+    {
+      "numero": 284,
+      "titulo": "Ruptura de sellos",
+      "archivo": "articulo_284.txt"
+    },
+    {
+      "numero": 285,
+      "titulo": "Tráfico de influencias",
+      "archivo": "articulo_285.txt"
+    },
+    {
+      "numero": 286,
+      "titulo": "Oferta de realizar tráfico de influencias",
+      "archivo": "articulo_286.txt"
+    },
+    {
+      "numero": 287,
+      "titulo": "Usurpación y simulación de funciones públicas",
+      "archivo": "articulo_287.txt"
+    },
+    {
+      "numero": 288,
+      "titulo": "Uso de fuerza pública contra órdenes de autoridad",
+      "archivo": "articulo_288.txt"
+    },
+    {
+      "numero": 289,
+      "titulo": "Testaferrismo",
+      "archivo": "articulo_289.txt"
+    },
+    {
+      "numero": 290,
+      "titulo": "Delitos contra los bienes institucionales de Fuerzas Armadas o Policía Nacional",
+      "archivo": "articulo_290.txt"
+    },
+    {
+      "numero": 291,
+      "titulo": "1",
+      "archivo": "articulo_291.txt"
+    },
+    {
+      "numero": 292,
+      "titulo": "Alteración de evidencias y elementos de prueba",
+      "archivo": "articulo_292.txt"
+    },
+    {
+      "numero": 293,
+      "titulo": "Extralimitación en la ejecución de un acto de servicio",
+      "archivo": "articulo_293.txt"
+    },
+    {
+      "numero": 294,
+      "titulo": "Abuso de facultades",
+      "archivo": "articulo_294.txt"
+    },
+    {
+      "numero": 295,
+      "titulo": "Negativa a prestar auxilio solicitado por autoridad civil",
+      "archivo": "articulo_295.txt"
+    },
+    {
+      "numero": 296,
+      "titulo": "Usurpación de uniformes e insignias",
+      "archivo": "articulo_296.txt"
+    },
+    {
+      "numero": 297,
+      "titulo": "Enriquecimiento privado no justificado",
+      "archivo": "articulo_297.txt"
+    },
+    {
+      "numero": 298,
+      "titulo": "Defraudación tributaria",
+      "archivo": "articulo_298.txt"
+    },
+    {
+      "numero": 299,
+      "titulo": "Defraudación aduanera",
+      "archivo": "articulo_299.txt"
+    },
+    {
+      "numero": 300,
+      "titulo": "Receptación aduanera",
+      "archivo": "articulo_300.txt"
+    },
+    {
+      "numero": 301,
+      "titulo": "Contrabando",
+      "archivo": "articulo_301.txt"
+    },
+    {
+      "numero": 302,
+      "titulo": "Mal uso de exenciones o suspensiones tributarias aduaneras",
+      "archivo": "articulo_302.txt"
+    },
+    {
+      "numero": 303,
+      "titulo": "Circunstancias agravantes de los delitos aduaneros",
+      "archivo": "articulo_303.txt"
+    },
+    {
+      "numero": 304,
+      "titulo": "Tráfico de moneda",
+      "archivo": "articulo_304.txt"
+    },
+    {
+      "numero": 305,
+      "titulo": "Producción, tenencia y tráfico de instrumentos destinados a la falsificación de moneda",
+      "archivo": "articulo_305.txt"
+    },
+    {
+      "numero": 306,
+      "titulo": "Falsificación de moneda y otros documentos",
+      "archivo": "articulo_306.txt"
+    },
+    {
+      "numero": 307,
+      "titulo": "Pánico económico",
+      "archivo": "articulo_307.txt"
+    },
+    {
+      "numero": 308,
+      "titulo": "Agiotaje",
+      "archivo": "articulo_308.txt"
+    },
+    {
+      "numero": 309,
+      "titulo": "Usura",
+      "archivo": "articulo_309.txt"
+    },
+    {
+      "numero": 310,
+      "titulo": "Divulgación de información financiera reservada",
+      "archivo": "articulo_310.txt"
+    },
+    {
+      "numero": 311,
+      "titulo": "Ocultamiento de información",
+      "archivo": "articulo_311.txt"
+    },
+    {
+      "numero": 312,
+      "titulo": "Falsedad de información",
+      "archivo": "articulo_312.txt"
+    },
+    {
+      "numero": 313,
+      "titulo": "Defraudaciones bursátiles",
+      "archivo": "articulo_313.txt"
+    },
+    {
+      "numero": 314,
+      "titulo": "Falsedad documental en el mercado de valores",
+      "archivo": "articulo_314.txt"
+    },
+    {
+      "numero": 315,
+      "titulo": "Autorización indebida de contrato de seguro",
+      "archivo": "articulo_315.txt"
+    },
+    {
+      "numero": 316,
+      "titulo": "Operaciones indebidas de seguros",
+      "archivo": "articulo_316.txt"
+    },
+    {
+      "numero": 317,
+      "titulo": "Lavado de activos",
+      "archivo": "articulo_317.txt"
+    },
+    {
+      "numero": 318,
+      "titulo": "Incriminación falsa por lavado de activos",
+      "archivo": "articulo_318.txt"
+    },
+    {
+      "numero": 319,
+      "titulo": "Omisión de control de lavado de activos",
+      "archivo": "articulo_319.txt"
+    },
+    {
+      "numero": 320,
+      "titulo": "Simulación de exportaciones o importaciones",
+      "archivo": "articulo_320.txt"
+    },
+    {
+      "numero": 321,
+      "titulo": "Actos ilegales tendientes al alza de precios de productos sujetos a precio oficial",
+      "archivo": "articulo_321.txt"
+    },
+    {
+      "numero": 322,
+      "titulo": "Pánico financiero",
+      "archivo": "articulo_322.txt"
+    },
+    {
+      "numero": 323,
+      "titulo": "Captación ilegal de dinero",
+      "archivo": "articulo_323.txt"
+    },
+    {
+      "numero": 324,
+      "titulo": "Falsedad de información financiera",
+      "archivo": "articulo_324.txt"
+    },
+    {
+      "numero": 325,
+      "titulo": "Sanción a la persona jurídica",
+      "archivo": "articulo_325.txt"
+    },
+    {
+      "numero": 326,
+      "titulo": "Descuento indebido de valores",
+      "archivo": "articulo_326.txt"
+    },
+    {
+      "numero": 327,
+      "titulo": "Falsificación de firmas",
+      "archivo": "articulo_327.txt"
+    },
+    {
+      "numero": 328,
+      "titulo": "Falsificación y uso de documento falso",
+      "archivo": "articulo_328.txt"
+    },
+    {
+      "numero": 329,
+      "titulo": "Falsificación, forjamiento o alteración de recetas",
+      "archivo": "articulo_329.txt"
+    },
+    {
+      "numero": 330,
+      "titulo": "Ejercicio ilegal de la profesión",
+      "archivo": "articulo_330.txt"
+    },
+    {
+      "numero": 331,
+      "titulo": "Obstaculización de proceso electoral",
+      "archivo": "articulo_331.txt"
+    },
+    {
+      "numero": 332,
+      "titulo": "Sustracción de papeletas electorales",
+      "archivo": "articulo_332.txt"
+    },
+    {
+      "numero": 333,
+      "titulo": "Falso sufragio",
+      "archivo": "articulo_333.txt"
+    },
+    {
+      "numero": 334,
+      "titulo": "Fraude electoral",
+      "archivo": "articulo_334.txt"
+    },
+    {
+      "numero": 335,
+      "titulo": "Sanción",
+      "archivo": "articulo_335.txt"
+    },
+    {
+      "numero": 336,
+      "titulo": "Rebelión",
+      "archivo": "articulo_336.txt"
+    },
+    {
+      "numero": 337,
+      "titulo": "Destrucción o inutilización de bienes",
+      "archivo": "articulo_337.txt"
+    },
+    {
+      "numero": 338,
+      "titulo": "Usurpación y retención ilegal de mando",
+      "archivo": "articulo_338.txt"
+    },
+    {
+      "numero": 339,
+      "titulo": "Actos hostiles contra el Estado",
+      "archivo": "articulo_339.txt"
+    },
+    {
+      "numero": 340,
+      "titulo": "Quebrantamiento de tregua o armisticio",
+      "archivo": "articulo_340.txt"
+    },
+    {
+      "numero": 341,
+      "titulo": "Tentativa de asesinato contra la o el Presidente de la República",
+      "archivo": "articulo_341.txt"
+    },
+    {
+      "numero": 342,
+      "titulo": "Sedición",
+      "archivo": "articulo_342.txt"
+    },
+    {
+      "numero": 343,
+      "titulo": "Insubordinación",
+      "archivo": "articulo_343.txt"
+    },
+    {
+      "numero": 344,
+      "titulo": "Abstención de la ejecución de operaciones en conmoción interna",
+      "archivo": "articulo_344.txt"
+    },
+    {
+      "numero": 345,
+      "titulo": "Sabotaje",
+      "archivo": "articulo_345.txt"
+    },
+    {
+      "numero": 346,
+      "titulo": "Paralización de un servicio público",
+      "archivo": "articulo_346.txt"
+    },
+    {
+      "numero": 347,
+      "titulo": "Destrucción de registros",
+      "archivo": "articulo_347.txt"
+    },
+    {
+      "numero": 348,
+      "titulo": "Incitación a discordia entre ciudadanos",
+      "archivo": "articulo_348.txt"
+    },
+    {
+      "numero": 349,
+      "titulo": "Grupos subversivos",
+      "archivo": "articulo_349.txt"
+    },
+    {
+      "numero": 350,
+      "titulo": "Instrucción militar ilegal",
+      "archivo": "articulo_350.txt"
+    },
+    {
+      "numero": 351,
+      "titulo": "Infiltración en zonas de seguridad",
+      "archivo": "articulo_351.txt"
+    },
+    {
+      "numero": 352,
+      "titulo": "Ocultamiento de objetos para el socorro",
+      "archivo": "articulo_352.txt"
+    },
+    {
+      "numero": 353,
+      "titulo": "Traición a la Patria",
+      "archivo": "articulo_353.txt"
+    },
+    {
+      "numero": 354,
+      "titulo": "Espionaje",
+      "archivo": "articulo_354.txt"
+    },
+    {
+      "numero": 355,
+      "titulo": "Omisión en el abastecimiento",
+      "archivo": "articulo_355.txt"
+    },
+    {
+      "numero": 356,
+      "titulo": "Atentado contra la seguridad de las operaciones militares o policiales",
+      "archivo": "articulo_356.txt"
+    },
+    {
+      "numero": 357,
+      "titulo": "Deserción",
+      "archivo": "articulo_357.txt"
+    },
+    {
+      "numero": 358,
+      "titulo": "Omisión de aviso de deserción",
+      "archivo": "articulo_358.txt"
+    },
+    {
+      "numero": 359,
+      "titulo": "Abuso de arma de fuego",
+      "archivo": "articulo_359.txt"
+    },
+    {
+      "numero": 360,
+      "titulo": "Tenencia y porte de armas",
+      "archivo": "articulo_360.txt"
+    },
+    {
+      "numero": 361,
+      "titulo": "Armas de fuego, municiones y explosivos no autorizados",
+      "archivo": "articulo_361.txt"
+    },
+    {
+      "numero": 362,
+      "titulo": "Tráfico ilícito de armas de fuego, armas químicas, nucleares o biológicas",
+      "archivo": "articulo_362.txt"
+    },
+    {
+      "numero": 363,
+      "titulo": "Instigación",
+      "archivo": "articulo_363.txt"
+    },
+    {
+      "numero": 364,
+      "titulo": "Incendio",
+      "archivo": "articulo_364.txt"
+    },
+    {
+      "numero": 365,
+      "titulo": "Apología",
+      "archivo": "articulo_365.txt"
+    },
+    {
+      "numero": 366,
+      "titulo": "Terrorismo",
+      "archivo": "articulo_366.txt"
+    },
+    {
+      "numero": 367,
+      "titulo": "Financiación del terrorismo",
+      "archivo": "articulo_367.txt"
+    },
+    {
+      "numero": 368,
+      "titulo": "Falsa incriminación",
+      "archivo": "articulo_368.txt"
+    },
+    {
+      "numero": 369,
+      "titulo": "Delincuencia Organizada",
+      "archivo": "articulo_369.txt"
+    },
+    {
+      "numero": 370,
+      "titulo": "Asociación Ilícita",
+      "archivo": "articulo_370.txt"
+    },
+    {
+      "numero": 371,
+      "titulo": "Infracciones de tránsito",
+      "archivo": "articulo_371.txt"
+    },
+    {
+      "numero": 372,
+      "titulo": "Pena natural",
+      "archivo": "articulo_372.txt"
+    },
+    {
+      "numero": 373,
+      "titulo": "Responsabilidad de las o los peatones, pasajeros o controladores",
+      "archivo": "articulo_373.txt"
+    },
+    {
+      "numero": 374,
+      "titulo": "Agravantes en infracciones de tránsito",
+      "archivo": "articulo_374.txt"
+    },
+    {
+      "numero": 375,
+      "titulo": "Uso de vehículo para la comisión de delitos",
+      "archivo": "articulo_375.txt"
+    },
+    {
+      "numero": 376,
+      "titulo": "6",
+      "archivo": "articulo_376.txt"
+    },
+    {
+      "numero": 377,
+      "titulo": "Muerte culposa",
+      "archivo": "articulo_377.txt"
+    },
+    {
+      "numero": 378,
+      "titulo": "Muerte provocada por negligencia de contratista o ejecutor de obra",
+      "archivo": "articulo_378.txt"
+    },
+    {
+      "numero": 379,
+      "titulo": "Lesiones causadas por accidente de tránsito",
+      "archivo": "articulo_379.txt"
+    },
+    {
+      "numero": 380,
+      "titulo": "Daños materiales",
+      "archivo": "articulo_380.txt"
+    },
+    {
+      "numero": 381,
+      "titulo": "Exceso de pasajeros en transporte público",
+      "archivo": "articulo_381.txt"
+    },
+    {
+      "numero": 382,
+      "titulo": "Daños mecánicos previsibles en transporte público",
+      "archivo": "articulo_382.txt"
+    },
+    {
+      "numero": 383,
+      "titulo": "Conducción de vehículo con llantas en mal estado",
+      "archivo": "articulo_383.txt"
+    },
+    {
+      "numero": 384,
+      "titulo": "4",
+      "archivo": "articulo_384.txt"
+    },
+    {
+      "numero": 385,
+      "titulo": "Conducción de vehículo en estado de embriaguez",
+      "archivo": "articulo_385.txt"
+    },
+    {
+      "numero": 386,
+      "titulo": "Contravenciones de tránsito de primera clase",
+      "archivo": "articulo_386.txt"
+    },
+    {
+      "numero": 387,
+      "titulo": "Contravenciones de tránsito de segunda clase",
+      "archivo": "articulo_387.txt"
+    },
+    {
+      "numero": 388,
+      "titulo": "Contravenciones de tránsito de tercera clase",
+      "archivo": "articulo_388.txt"
+    },
+    {
+      "numero": 389,
+      "titulo": "Contravenciones de tránsito de cuarta clase",
+      "archivo": "articulo_389.txt"
+    },
+    {
+      "numero": 390,
+      "titulo": "Contravenciones de tránsito de quinta clase",
+      "archivo": "articulo_390.txt"
+    },
+    {
+      "numero": 391,
+      "titulo": "Contravenciones de tránsito de sexta clase",
+      "archivo": "articulo_391.txt"
+    },
+    {
+      "numero": 392,
+      "titulo": "Contravenciones de tránsito de séptima clase",
+      "archivo": "articulo_392.txt"
+    },
+    {
+      "numero": 393,
+      "titulo": "Contravenciones de primera clase",
+      "archivo": "articulo_393.txt"
+    },
+    {
+      "numero": 394,
+      "titulo": "Contravenciones de segunda clase",
+      "archivo": "articulo_394.txt"
+    },
+    {
+      "numero": 395,
+      "titulo": "Contravenciones de tercera clase",
+      "archivo": "articulo_395.txt"
+    },
+    {
+      "numero": 396,
+      "titulo": "Contravenciones de cuarta clase",
+      "archivo": "articulo_396.txt"
+    },
+    {
+      "numero": 397,
+      "titulo": "Contravenciones en escenarios deportivos y de concurrencia masiva",
+      "archivo": "articulo_397.txt"
+    },
+    {
+      "numero": 398,
+      "titulo": "Jurisdicción",
+      "archivo": "articulo_398.txt"
+    },
+    {
+      "numero": 399,
+      "titulo": "Órganos jurisdiccionales penales",
+      "archivo": "articulo_399.txt"
+    },
+    {
+      "numero": 400,
+      "titulo": "Ámbito de la potestad jurisdiccional",
+      "archivo": "articulo_400.txt"
+    },
+    {
+      "numero": 401,
+      "titulo": "Jurisdicción universal",
+      "archivo": "articulo_401.txt"
+    },
+    {
+      "numero": 402,
+      "titulo": "Naturaleza",
+      "archivo": "articulo_402.txt"
+    },
+    {
+      "numero": 403,
+      "titulo": "Improrrogabilidad",
+      "archivo": "articulo_403.txt"
+    },
+    {
+      "numero": 404,
+      "titulo": "Reglas de la competencia",
+      "archivo": "articulo_404.txt"
+    },
+    {
+      "numero": 405,
+      "titulo": "Tribunal de jurisdicción competente",
+      "archivo": "articulo_405.txt"
+    },
+    {
+      "numero": 406,
+      "titulo": "Conexidad",
+      "archivo": "articulo_406.txt"
+    },
+    {
+      "numero": 407,
+      "titulo": "Actos procesales extraterritoriales",
+      "archivo": "articulo_407.txt"
+    },
+    {
+      "numero": 408,
+      "titulo": "Validez de actos procesales extraterritoriales",
+      "archivo": "articulo_408.txt"
+    },
+    {
+      "numero": 409,
+      "titulo": "Acción penal",
+      "archivo": "articulo_409.txt"
+    },
+    {
+      "numero": 410,
+      "titulo": "Ejercicio de la acción",
+      "archivo": "articulo_410.txt"
+    },
+    {
+      "numero": 411,
+      "titulo": "Titularidad de la acción penal pública",
+      "archivo": "articulo_411.txt"
+    },
+    {
+      "numero": 412,
+      "titulo": "Principio de oportunidad",
+      "archivo": "articulo_412.txt"
+    },
+    {
+      "numero": 413,
+      "titulo": "Trámite de la aplicación del principio de oportunidad",
+      "archivo": "articulo_413.txt"
+    },
+    {
+      "numero": 414,
+      "titulo": "Prejudicialidad",
+      "archivo": "articulo_414.txt"
+    },
+    {
+      "numero": 415,
+      "titulo": "Ejercicio privado de la acción penal",
+      "archivo": "articulo_415.txt"
+    },
+    {
+      "numero": 416,
+      "titulo": "Extinción del ejercicio de la acción penal",
+      "archivo": "articulo_416.txt"
+    },
+    {
+      "numero": 417,
+      "titulo": "Prescripción del ejercicio de la acción",
+      "archivo": "articulo_417.txt"
+    },
+    {
+      "numero": 418,
+      "titulo": "Extinción de la acción penal por infracciones sancionadas con multa",
+      "archivo": "articulo_418.txt"
+    },
+    {
+      "numero": 419,
+      "titulo": "Interrupción de la prescripción",
+      "archivo": "articulo_419.txt"
+    },
+    {
+      "numero": 420,
+      "titulo": "Aplicación por separado de la prescripción y su interrupción",
+      "archivo": "articulo_420.txt"
+    },
+    {
+      "numero": 421,
+      "titulo": "Denuncia",
+      "archivo": "articulo_421.txt"
+    },
+    {
+      "numero": 422,
+      "titulo": "Deber de denunciar",
+      "archivo": "articulo_422.txt"
+    },
+    {
+      "numero": 423,
+      "titulo": "Denuncia ante el personal del Sistema integral de investigación",
+      "archivo": "articulo_423.txt"
+    },
+    {
+      "numero": 424,
+      "titulo": "Exoneración del deber de denunciar",
+      "archivo": "articulo_424.txt"
+    },
+    {
+      "numero": 425,
+      "titulo": "Reconocimiento sin juramento",
+      "archivo": "articulo_425.txt"
+    },
+    {
+      "numero": 426,
+      "titulo": "Acta",
+      "archivo": "articulo_426.txt"
+    },
+    {
+      "numero": 427,
+      "titulo": "Formas de denuncia",
+      "archivo": "articulo_427.txt"
+    },
+    {
+      "numero": 428,
+      "titulo": "Denuncia escrita",
+      "archivo": "articulo_428.txt"
+    },
+    {
+      "numero": 429,
+      "titulo": "Denuncia verbal",
+      "archivo": "articulo_429.txt"
+    },
+    {
+      "numero": 430,
+      "titulo": "Contenido",
+      "archivo": "articulo_430.txt"
+    },
+    {
+      "numero": 431,
+      "titulo": "Responsabilidad",
+      "archivo": "articulo_431.txt"
+    },
+    {
+      "numero": 432,
+      "titulo": "Acusación particular",
+      "archivo": "articulo_432.txt"
+    },
+    {
+      "numero": 433,
+      "titulo": "Trámite",
+      "archivo": "articulo_433.txt"
+    },
+    {
+      "numero": 434,
+      "titulo": "Contenido",
+      "archivo": "articulo_434.txt"
+    },
+    {
+      "numero": 435,
+      "titulo": "Citación",
+      "archivo": "articulo_435.txt"
+    },
+    {
+      "numero": 436,
+      "titulo": "Procurador común",
+      "archivo": "articulo_436.txt"
+    },
+    {
+      "numero": 437,
+      "titulo": "Desistimiento",
+      "archivo": "articulo_437.txt"
+    },
+    {
+      "numero": 438,
+      "titulo": "Renuncia",
+      "archivo": "articulo_438.txt"
+    },
+    {
+      "numero": 439,
+      "titulo": "Sujetos procesales",
+      "archivo": "articulo_439.txt"
+    },
+    {
+      "numero": 440,
+      "titulo": "Persona procesada",
+      "archivo": "articulo_440.txt"
+    },
+    {
+      "numero": 441,
+      "titulo": "Víctima",
+      "archivo": "articulo_441.txt"
+    },
+    {
+      "numero": 442,
+      "titulo": "Fiscalía",
+      "archivo": "articulo_442.txt"
+    },
+    {
+      "numero": 443,
+      "titulo": "Atribuciones de la Fiscalía",
+      "archivo": "articulo_443.txt"
+    },
+    {
+      "numero": 444,
+      "titulo": "Atribuciones de la o el fiscal",
+      "archivo": "articulo_444.txt"
+    },
+    {
+      "numero": 445,
+      "titulo": "Organización",
+      "archivo": "articulo_445.txt"
+    },
+    {
+      "numero": 446,
+      "titulo": "Coordinación",
+      "archivo": "articulo_446.txt"
+    },
+    {
+      "numero": 447,
+      "titulo": "Normativa",
+      "archivo": "articulo_447.txt"
+    },
+    {
+      "numero": 448,
+      "titulo": "Organización y dirección",
+      "archivo": "articulo_448.txt"
+    },
+    {
+      "numero": 449,
+      "titulo": "Atribuciones",
+      "archivo": "articulo_449.txt"
+    },
+    {
+      "numero": 450,
+      "titulo": "Informes o exámenes de las entidades públicas y privadas",
+      "archivo": "articulo_450.txt"
+    },
+    {
+      "numero": 451,
+      "titulo": "Defensoría Pública",
+      "archivo": "articulo_451.txt"
+    },
+    {
+      "numero": 452,
+      "titulo": "Necesidad de defensor",
+      "archivo": "articulo_452.txt"
+    },
+    {
+      "numero": 453,
+      "titulo": "Finalidad",
+      "archivo": "articulo_453.txt"
+    },
+    {
+      "numero": 454,
+      "titulo": "Principios",
+      "archivo": "articulo_454.txt"
+    },
+    {
+      "numero": 455,
+      "titulo": "Nexo causal",
+      "archivo": "articulo_455.txt"
+    },
+    {
+      "numero": 456,
+      "titulo": "Cadena de custodia",
+      "archivo": "articulo_456.txt"
+    },
+    {
+      "numero": 457,
+      "titulo": "Criterios de valoración",
+      "archivo": "articulo_457.txt"
+    },
+    {
+      "numero": 458,
+      "titulo": "Preservación de la escena del hecho o indicios",
+      "archivo": "articulo_458.txt"
+    },
+    {
+      "numero": 459,
+      "titulo": "Actuaciones",
+      "archivo": "articulo_459.txt"
+    },
+    {
+      "numero": 460,
+      "titulo": "Reconocimiento del lugar de los hechos",
+      "archivo": "articulo_460.txt"
+    },
+    {
+      "numero": 461,
+      "titulo": "Actuaciones en caso de muerte",
+      "archivo": "articulo_461.txt"
+    },
+    {
+      "numero": 462,
+      "titulo": "Exhumación",
+      "archivo": "articulo_462.txt"
+    },
+    {
+      "numero": 463,
+      "titulo": "Obtención de muestras",
+      "archivo": "articulo_463.txt"
+    },
+    {
+      "numero": 464,
+      "titulo": "Ingesta de alcohol y sustancias catalogadas sujetas a fiscalización",
+      "archivo": "articulo_464.txt"
+    },
+    {
+      "numero": 465,
+      "titulo": "Exámenes médicos y corporales",
+      "archivo": "articulo_465.txt"
+    },
+    {
+      "numero": 466,
+      "titulo": "Identificación personal",
+      "archivo": "articulo_466.txt"
+    },
+    {
+      "numero": 467,
+      "titulo": "Reconocimiento de objetos",
+      "archivo": "articulo_467.txt"
+    },
+    {
+      "numero": 468,
+      "titulo": "Reconstrucción del hecho",
+      "archivo": "articulo_468.txt"
+    },
+    {
+      "numero": 469,
+      "titulo": "Maquinarias y vehículos",
+      "archivo": "articulo_469.txt"
+    },
+    {
+      "numero": 470,
+      "titulo": "Comunicaciones personales",
+      "archivo": "articulo_470.txt"
+    },
+    {
+      "numero": 471,
+      "titulo": "Registros relacionados a un hecho constitutivo de infracción",
+      "archivo": "articulo_471.txt"
+    },
+    {
+      "numero": 472,
+      "titulo": "Información de circulación restringida",
+      "archivo": "articulo_472.txt"
+    },
+    {
+      "numero": 473,
+      "titulo": "Alteración, disposición o destrucción de bienes o sustancias",
+      "archivo": "articulo_473.txt"
+    },
+    {
+      "numero": 474,
+      "titulo": "Análisis y destrucción de sustancias catalogadas sujetas a fiscalización",
+      "archivo": "articulo_474.txt"
+    },
+    {
+      "numero": 475,
+      "titulo": "Retención de correspondencia",
+      "archivo": "articulo_475.txt"
+    },
+    {
+      "numero": 476,
+      "titulo": "Interceptación de las comunicaciones o datos informáticos",
+      "archivo": "articulo_476.txt"
+    },
+    {
+      "numero": 477,
+      "titulo": "Reconocimiento de grabaciones",
+      "archivo": "articulo_477.txt"
+    },
+    {
+      "numero": 478,
+      "titulo": "Registros",
+      "archivo": "articulo_478.txt"
+    },
+    {
+      "numero": 479,
+      "titulo": "Registro de vehículos",
+      "archivo": "articulo_479.txt"
+    },
+    {
+      "numero": 480,
+      "titulo": "Allanamiento",
+      "archivo": "articulo_480.txt"
+    },
+    {
+      "numero": 481,
+      "titulo": "Orden de allanamiento",
+      "archivo": "articulo_481.txt"
+    },
+    {
+      "numero": 482,
+      "titulo": "Procedimiento del allanamiento",
+      "archivo": "articulo_482.txt"
+    },
+    {
+      "numero": 483,
+      "titulo": "Operaciones encubiertas",
+      "archivo": "articulo_483.txt"
+    },
+    {
+      "numero": 484,
+      "titulo": "Reglas",
+      "archivo": "articulo_484.txt"
+    },
+    {
+      "numero": 485,
+      "titulo": "Entregas vigiladas o controladas",
+      "archivo": "articulo_485.txt"
+    },
+    {
+      "numero": 486,
+      "titulo": "Procedimiento para la entrega vigilada",
+      "archivo": "articulo_486.txt"
+    },
+    {
+      "numero": 487,
+      "titulo": "Protección de la operación",
+      "archivo": "articulo_487.txt"
+    },
+    {
+      "numero": 488,
+      "titulo": "Remisión de elementos probatorios",
+      "archivo": "articulo_488.txt"
+    },
+    {
+      "numero": 489,
+      "titulo": "Agente encubierto procesado",
+      "archivo": "articulo_489.txt"
+    },
+    {
+      "numero": 490,
+      "titulo": "Principio de reserva judicial",
+      "archivo": "articulo_490.txt"
+    },
+    {
+      "numero": 491,
+      "titulo": "Cooperación eficaz",
+      "archivo": "articulo_491.txt"
+    },
+    {
+      "numero": 492,
+      "titulo": "Trámite de la cooperación eficaz",
+      "archivo": "articulo_492.txt"
+    },
+    {
+      "numero": 493,
+      "titulo": "Concesión de beneficios de la cooperación eficaz",
+      "archivo": "articulo_493.txt"
+    },
+    {
+      "numero": 494,
+      "titulo": "Medidas cautelares y de protección en la cooperación eficaz",
+      "archivo": "articulo_494.txt"
+    },
+    {
+      "numero": 495,
+      "titulo": "Informante",
+      "archivo": "articulo_495.txt"
+    },
+    {
+      "numero": 496,
+      "titulo": "Investigaciones conjuntas",
+      "archivo": "articulo_496.txt"
+    },
+    {
+      "numero": 497,
+      "titulo": "Asistencia judicial recíproca",
+      "archivo": "articulo_497.txt"
+    },
+    {
+      "numero": 498,
+      "titulo": "Medios de prueba",
+      "archivo": "articulo_498.txt"
+    },
+    {
+      "numero": 499,
+      "titulo": "Reglas generales",
+      "archivo": "articulo_499.txt"
+    },
+    {
+      "numero": 500,
+      "titulo": "Contenido digital",
+      "archivo": "articulo_500.txt"
+    },
+    {
+      "numero": 501,
+      "titulo": "Testimonio",
+      "archivo": "articulo_501.txt"
+    },
+    {
+      "numero": 502,
+      "titulo": "Reglas generales",
+      "archivo": "articulo_502.txt"
+    },
+    {
+      "numero": 503,
+      "titulo": "Testimonio de terceros",
+      "archivo": "articulo_503.txt"
+    },
+    {
+      "numero": 504,
+      "titulo": "4",
+      "archivo": "articulo_504.txt"
+    },
+    {
+      "numero": 505,
+      "titulo": "Testimonio de peritos",
+      "archivo": "articulo_505.txt"
+    },
+    {
+      "numero": 506,
+      "titulo": "Detención de testigos por falso testimonio y perjurio",
+      "archivo": "articulo_506.txt"
+    },
+    {
+      "numero": 507,
+      "titulo": "Reglas",
+      "archivo": "articulo_507.txt"
+    },
+    {
+      "numero": 508,
+      "titulo": "Versión de la persona investigada o procesada",
+      "archivo": "articulo_508.txt"
+    },
+    {
+      "numero": 509,
+      "titulo": "No liberación de práctica de prueba",
+      "archivo": "articulo_509.txt"
+    },
+    {
+      "numero": 510,
+      "titulo": "Reglas para el testimonio de la víctima",
+      "archivo": "articulo_510.txt"
+    },
+    {
+      "numero": 511,
+      "titulo": "Reglas generales",
+      "archivo": "articulo_511.txt"
+    },
+    {
+      "numero": 512,
+      "titulo": "Reglas especiales",
+      "archivo": "articulo_512.txt"
+    },
+    {
+      "numero": 513,
+      "titulo": "Responsabilidad",
+      "archivo": "articulo_513.txt"
+    },
+    {
+      "numero": 514,
+      "titulo": "Remisión",
+      "archivo": "articulo_514.txt"
+    },
+    {
+      "numero": 515,
+      "titulo": "Exhibición previa",
+      "archivo": "articulo_515.txt"
+    },
+    {
+      "numero": 516,
+      "titulo": "Transcripción del original",
+      "archivo": "articulo_516.txt"
+    },
+    {
+      "numero": 517,
+      "titulo": "Comienzo de la instrucción o del juicio",
+      "archivo": "articulo_517.txt"
+    },
+    {
+      "numero": 518,
+      "titulo": "Aplicación en delitos de ejercicio privado de la acción",
+      "archivo": "articulo_518.txt"
+    },
+    {
+      "numero": 519,
+      "titulo": "Finalidad",
+      "archivo": "articulo_519.txt"
+    },
+    {
+      "numero": 520,
+      "titulo": "Reglas generales de las medidas cautelares y de protección",
+      "archivo": "articulo_520.txt"
+    },
+    {
+      "numero": 521,
+      "titulo": "1",
+      "archivo": "articulo_521.txt"
+    },
+    {
+      "numero": 522,
+      "titulo": "Modalidades",
+      "archivo": "articulo_522.txt"
+    },
+    {
+      "numero": 523,
+      "titulo": "Prohibición de ausentarse del país",
+      "archivo": "articulo_523.txt"
+    },
+    {
+      "numero": 524,
+      "titulo": "Obligación de presentarse periódicamente ante la autoridad",
+      "archivo": "articulo_524.txt"
+    },
+    {
+      "numero": 525,
+      "titulo": "Arresto domiciliario",
+      "archivo": "articulo_525.txt"
+    },
+    {
+      "numero": 526,
+      "titulo": "Aprehensión",
+      "archivo": "articulo_526.txt"
+    },
+    {
+      "numero": 527,
+      "titulo": "Flagrancia",
+      "archivo": "articulo_527.txt"
+    },
+    {
+      "numero": 528,
+      "titulo": "Agentes de aprehensión",
+      "archivo": "articulo_528.txt"
+    },
+    {
+      "numero": 529,
+      "titulo": "Audiencia de calificación de flagrancia",
+      "archivo": "articulo_529.txt"
+    },
+    {
+      "numero": 530,
+      "titulo": "Detención",
+      "archivo": "articulo_530.txt"
+    },
+    {
+      "numero": 531,
+      "titulo": "Orden",
+      "archivo": "articulo_531.txt"
+    },
+    {
+      "numero": 532,
+      "titulo": "Duración",
+      "archivo": "articulo_532.txt"
+    },
+    {
+      "numero": 533,
+      "titulo": "Información sobre derechos",
+      "archivo": "articulo_533.txt"
+    },
+    {
+      "numero": 534,
+      "titulo": "Finalidad y requisitos",
+      "archivo": "articulo_534.txt"
+    },
+    {
+      "numero": 535,
+      "titulo": "Revocatoria",
+      "archivo": "articulo_535.txt"
+    },
+    {
+      "numero": 536,
+      "titulo": "Sustitución",
+      "archivo": "articulo_536.txt"
+    },
+    {
+      "numero": 537,
+      "titulo": "Casos especiales",
+      "archivo": "articulo_537.txt"
+    },
+    {
+      "numero": 538,
+      "titulo": "Suspensión",
+      "archivo": "articulo_538.txt"
+    },
+    {
+      "numero": 539,
+      "titulo": "Improcedencia",
+      "archivo": "articulo_539.txt"
+    },
+    {
+      "numero": 540,
+      "titulo": "Resolución de prisión preventiva",
+      "archivo": "articulo_540.txt"
+    },
+    {
+      "numero": 541,
+      "titulo": "Caducidad",
+      "archivo": "articulo_541.txt"
+    },
+    {
+      "numero": 542,
+      "titulo": "Incumplimiento de las medidas",
+      "archivo": "articulo_542.txt"
+    },
+    {
+      "numero": 543,
+      "titulo": "Objeto y clasificación",
+      "archivo": "articulo_543.txt"
+    },
+    {
+      "numero": 544,
+      "titulo": "Inadmisibilidad",
+      "archivo": "articulo_544.txt"
+    },
+    {
+      "numero": 545,
+      "titulo": "Trámite",
+      "archivo": "articulo_545.txt"
+    },
+    {
+      "numero": 546,
+      "titulo": "Formas de caución",
+      "archivo": "articulo_546.txt"
+    },
+    {
+      "numero": 547,
+      "titulo": "Ejecución de la caución",
+      "archivo": "articulo_547.txt"
+    },
+    {
+      "numero": 548,
+      "titulo": "Cancelación de la caución",
+      "archivo": "articulo_548.txt"
+    },
+    {
+      "numero": 549,
+      "titulo": "Modalidades",
+      "archivo": "articulo_549.txt"
+    },
+    {
+      "numero": 550,
+      "titulo": "Medidas cautelares para personas jurídicas",
+      "archivo": "articulo_550.txt"
+    },
+    {
+      "numero": 551,
+      "titulo": "Órdenes especiales",
+      "archivo": "articulo_551.txt"
+    },
+    {
+      "numero": 552,
+      "titulo": "Órdenes especiales en los delitos de terrorismo y su financiación",
+      "archivo": "articulo_552.txt"
+    },
+    {
+      "numero": 553,
+      "titulo": "3",
+      "archivo": "articulo_553.txt"
+    },
+    {
+      "numero": 554,
+      "titulo": "Monto",
+      "archivo": "articulo_554.txt"
+    },
+    {
+      "numero": 555,
+      "titulo": "Medidas cautelares sobre bienes en juicio",
+      "archivo": "articulo_555.txt"
+    },
+    {
+      "numero": 556,
+      "titulo": "Prohibición temporal",
+      "archivo": "articulo_556.txt"
+    },
+    {
+      "numero": 557,
+      "titulo": "Incautación",
+      "archivo": "articulo_557.txt"
+    },
+    {
+      "numero": 558,
+      "titulo": "Modalidades",
+      "archivo": "articulo_558.txt"
+    },
+    {
+      "numero": 559,
+      "titulo": "Uso de dispositivos electrónicos",
+      "archivo": "articulo_559.txt"
+    },
+    {
+      "numero": 560,
+      "titulo": "Oralidad",
+      "archivo": "articulo_560.txt"
+    },
+    {
+      "numero": 561,
+      "titulo": "Contenido de las actas",
+      "archivo": "articulo_561.txt"
+    },
+    {
+      "numero": 562,
+      "titulo": "Publicidad de las audiencias",
+      "archivo": "articulo_562.txt"
+    },
+    {
+      "numero": 563,
+      "titulo": "Audiencias",
+      "archivo": "articulo_563.txt"
+    },
+    {
+      "numero": 564,
+      "titulo": "Dirección de las audiencias",
+      "archivo": "articulo_564.txt"
+    },
+    {
+      "numero": 565,
+      "titulo": "Audiencias telemáticas u otros medios similares",
+      "archivo": "articulo_565.txt"
+    },
+    {
+      "numero": 566,
+      "titulo": "Medidas de restricción",
+      "archivo": "articulo_566.txt"
+    },
+    {
+      "numero": 567,
+      "titulo": "Aplicación de las medidas de restricción",
+      "archivo": "articulo_567.txt"
+    },
+    {
+      "numero": 568,
+      "titulo": "Suspensión y receso",
+      "archivo": "articulo_568.txt"
+    },
+    {
+      "numero": 569,
+      "titulo": "Objeción",
+      "archivo": "articulo_569.txt"
+    },
+    {
+      "numero": 570,
+      "titulo": "Justicia Especializada",
+      "archivo": "articulo_570.txt"
+    },
+    {
+      "numero": 571,
+      "titulo": "Impugnación de competencia",
+      "archivo": "articulo_571.txt"
+    },
+    {
+      "numero": 572,
+      "titulo": "Causas de excusa y recusación",
+      "archivo": "articulo_572.txt"
+    },
+    {
+      "numero": 573,
+      "titulo": "Plazos",
+      "archivo": "articulo_573.txt"
+    },
+    {
+      "numero": 574,
+      "titulo": "Reglas",
+      "archivo": "articulo_574.txt"
+    },
+    {
+      "numero": 575,
+      "titulo": "Notificación",
+      "archivo": "articulo_575.txt"
+    },
+    {
+      "numero": 576,
+      "titulo": "Copias",
+      "archivo": "articulo_576.txt"
+    },
+    {
+      "numero": 577,
+      "titulo": "Expediente",
+      "archivo": "articulo_577.txt"
+    },
+    {
+      "numero": 578,
+      "titulo": "Clases",
+      "archivo": "articulo_578.txt"
+    },
+    {
+      "numero": 579,
+      "titulo": "Registro electrónico de actos procesales",
+      "archivo": "articulo_579.txt"
+    },
+    {
+      "numero": 580,
+      "titulo": "Finalidades",
+      "archivo": "articulo_580.txt"
+    },
+    {
+      "numero": 581,
+      "titulo": "Formas de conocer la infracción penal",
+      "archivo": "articulo_581.txt"
+    },
+    {
+      "numero": 581,
+      "titulo": "Formas de conocer la infracción penal",
+      "archivo": "articulo_581.txt"
+    },
+    {
+      "numero": 582,
+      "titulo": "Versión ante la o el fiscal",
+      "archivo": "articulo_582.txt"
+    },
+    {
+      "numero": 583,
+      "titulo": "Actuaciones fiscales urgentes",
+      "archivo": "articulo_583.txt"
+    },
+    {
+      "numero": 584,
+      "titulo": "Reserva de la investigación",
+      "archivo": "articulo_584.txt"
+    },
+    {
+      "numero": 585,
+      "titulo": "Duración de la investigación",
+      "archivo": "articulo_585.txt"
+    },
+    {
+      "numero": 586,
+      "titulo": "Archivo",
+      "archivo": "articulo_586.txt"
+    },
+    {
+      "numero": 587,
+      "titulo": "Trámite para el archivo",
+      "archivo": "articulo_587.txt"
+    },
+    {
+      "numero": 588,
+      "titulo": "Persona con síntomas de trastorno mental",
+      "archivo": "articulo_588.txt"
+    },
+    {
+      "numero": 589,
+      "titulo": "Etapas",
+      "archivo": "articulo_589.txt"
+    },
+    {
+      "numero": 590,
+      "titulo": "Finalidad",
+      "archivo": "articulo_590.txt"
+    },
+    {
+      "numero": 591,
+      "titulo": "Instrucción",
+      "archivo": "articulo_591.txt"
+    },
+    {
+      "numero": 592,
+      "titulo": "Duración",
+      "archivo": "articulo_592.txt"
+    },
+    {
+      "numero": 593,
+      "titulo": "Vinculación a la instrucción",
+      "archivo": "articulo_593.txt"
+    },
+    {
+      "numero": 594,
+      "titulo": "Reglas",
+      "archivo": "articulo_594.txt"
+    },
+    {
+      "numero": 595,
+      "titulo": "Formulación de cargos",
+      "archivo": "articulo_595.txt"
+    },
+    {
+      "numero": 596,
+      "titulo": "Reformulación de cargos",
+      "archivo": "articulo_596.txt"
+    },
+    {
+      "numero": 597,
+      "titulo": "Actividades investigativas en la instrucción",
+      "archivo": "articulo_597.txt"
+    },
+    {
+      "numero": 598,
+      "titulo": "Facultad de ordenar pericias y diligencias",
+      "archivo": "articulo_598.txt"
+    },
+    {
+      "numero": 599,
+      "titulo": "Conclusión de la instrucción",
+      "archivo": "articulo_599.txt"
+    },
+    {
+      "numero": 600,
+      "titulo": "Dictamen y abstención fiscal",
+      "archivo": "articulo_600.txt"
+    },
+    {
+      "numero": 601,
+      "titulo": "Finalidad",
+      "archivo": "articulo_601.txt"
+    },
+    {
+      "numero": 602,
+      "titulo": "Reglas",
+      "archivo": "articulo_602.txt"
+    },
+    {
+      "numero": 603,
+      "titulo": "Acusación fiscal",
+      "archivo": "articulo_603.txt"
+    },
+    {
+      "numero": 604,
+      "titulo": "Audiencia preparatoria de juicio",
+      "archivo": "articulo_604.txt"
+    },
+    {
+      "numero": 605,
+      "titulo": "Sobreseimiento",
+      "archivo": "articulo_605.txt"
+    },
+    {
+      "numero": 606,
+      "titulo": "Calificación de la denuncia y la acusación",
+      "archivo": "articulo_606.txt"
+    },
+    {
+      "numero": 607,
+      "titulo": "Efectos de sobreseimiento",
+      "archivo": "articulo_607.txt"
+    },
+    {
+      "numero": 608,
+      "titulo": "Llamamiento a juicio",
+      "archivo": "articulo_608.txt"
+    },
+    {
+      "numero": 609,
+      "titulo": "Necesidad de la acusación",
+      "archivo": "articulo_609.txt"
+    },
+    {
+      "numero": 610,
+      "titulo": "Principios",
+      "archivo": "articulo_610.txt"
+    },
+    {
+      "numero": 611,
+      "titulo": "Notificaciones",
+      "archivo": "articulo_611.txt"
+    },
+    {
+      "numero": 612,
+      "titulo": "Instalación y suspensión",
+      "archivo": "articulo_612.txt"
+    },
+    {
+      "numero": 613,
+      "titulo": "Audiencia de juicio fallida",
+      "archivo": "articulo_613.txt"
+    },
+    {
+      "numero": 614,
+      "titulo": "Alegatos de apertura",
+      "archivo": "articulo_614.txt"
+    },
+    {
+      "numero": 615,
+      "titulo": "Práctica de pruebas",
+      "archivo": "articulo_615.txt"
+    },
+    {
+      "numero": 616,
+      "titulo": "Exhibición de documentos, objetos u otros medios",
+      "archivo": "articulo_616.txt"
+    },
+    {
+      "numero": 617,
+      "titulo": "Prueba no solicitada oportunamente",
+      "archivo": "articulo_617.txt"
+    },
+    {
+      "numero": 618,
+      "titulo": "Alegatos",
+      "archivo": "articulo_618.txt"
+    },
+    {
+      "numero": 619,
+      "titulo": "Decisión",
+      "archivo": "articulo_619.txt"
+    },
+    {
+      "numero": 620,
+      "titulo": "Tiempo de la pena",
+      "archivo": "articulo_620.txt"
+    },
+    {
+      "numero": 621,
+      "titulo": "Sentencia",
+      "archivo": "articulo_621.txt"
+    },
+    {
+      "numero": 622,
+      "titulo": "Requisitos de la sentencia",
+      "archivo": "articulo_622.txt"
+    },
+    {
+      "numero": 623,
+      "titulo": "Tiempo de la pena",
+      "archivo": "articulo_623.txt"
+    },
+    {
+      "numero": 624,
+      "titulo": "Oportunidad para ejecutar la pena",
+      "archivo": "articulo_624.txt"
+    },
+    {
+      "numero": 625,
+      "titulo": "Votos necesarios",
+      "archivo": "articulo_625.txt"
+    },
+    {
+      "numero": 626,
+      "titulo": "Infracción diversa",
+      "archivo": "articulo_626.txt"
+    },
+    {
+      "numero": 627,
+      "titulo": "Prohibición",
+      "archivo": "articulo_627.txt"
+    },
+    {
+      "numero": 628,
+      "titulo": "Reglas sobre la reparación integral en la sentencia",
+      "archivo": "articulo_628.txt"
+    },
+    {
+      "numero": 629,
+      "titulo": "Costas procesales",
+      "archivo": "articulo_629.txt"
+    },
+    {
+      "numero": 630,
+      "titulo": "Suspensión condicional de la pena",
+      "archivo": "articulo_630.txt"
+    },
+    {
+      "numero": 631,
+      "titulo": "Condiciones",
+      "archivo": "articulo_631.txt"
+    },
+    {
+      "numero": 632,
+      "titulo": "Control",
+      "archivo": "articulo_632.txt"
+    },
+    {
+      "numero": 633,
+      "titulo": "Extinción",
+      "archivo": "articulo_633.txt"
+    },
+    {
+      "numero": 634,
+      "titulo": "Clases de procedimientos",
+      "archivo": "articulo_634.txt"
+    },
+    {
+      "numero": 635,
+      "titulo": "Reglas",
+      "archivo": "articulo_635.txt"
+    },
+    {
+      "numero": 636,
+      "titulo": "Trámite",
+      "archivo": "articulo_636.txt"
+    },
+    {
+      "numero": 637,
+      "titulo": "Audiencia",
+      "archivo": "articulo_637.txt"
+    },
+    {
+      "numero": 638,
+      "titulo": "Resolución",
+      "archivo": "articulo_638.txt"
+    },
+    {
+      "numero": 639,
+      "titulo": "Negativa de aceptación del acuerdo",
+      "archivo": "articulo_639.txt"
+    },
+    {
+      "numero": 640,
+      "titulo": "Procedimiento directo",
+      "archivo": "articulo_640.txt"
+    },
+    {
+      "numero": 641,
+      "titulo": "Procedimiento expedito",
+      "archivo": "articulo_641.txt"
+    },
+    {
+      "numero": 642,
+      "titulo": "Reglas",
+      "archivo": "articulo_642.txt"
+    },
+    {
+      "numero": 643,
+      "titulo": "Reglas",
+      "archivo": "articulo_643.txt"
+    },
+    {
+      "numero": 644,
+      "titulo": "Inicio del procedimiento",
+      "archivo": "articulo_644.txt"
+    },
+    {
+      "numero": 645,
+      "titulo": "Contravenciones con pena privativa de libertad",
+      "archivo": "articulo_645.txt"
+    },
+    {
+      "numero": 646,
+      "titulo": "Ejecución de sanciones",
+      "archivo": "articulo_646.txt"
+    },
+    {
+      "numero": 647,
+      "titulo": "Reglas",
+      "archivo": "articulo_647.txt"
+    },
+    {
+      "numero": 648,
+      "titulo": "Citación y contestación",
+      "archivo": "articulo_648.txt"
+    },
+    {
+      "numero": 649,
+      "titulo": "Audiencia de conciliación y juzgamiento",
+      "archivo": "articulo_649.txt"
+    },
+    {
+      "numero": 650,
+      "titulo": "Inasistencia injustificada",
+      "archivo": "articulo_650.txt"
+    },
+    {
+      "numero": 651,
+      "titulo": "Desistimiento o abandono",
+      "archivo": "articulo_651.txt"
+    },
+    {
+      "numero": 652,
+      "titulo": "Reglas generales",
+      "archivo": "articulo_652.txt"
+    },
+    {
+      "numero": 653,
+      "titulo": "Procedencia",
+      "archivo": "articulo_653.txt"
+    },
+    {
+      "numero": 654,
+      "titulo": "Trámite",
+      "archivo": "articulo_654.txt"
+    },
+    {
+      "numero": 655,
+      "titulo": "Confirmación por el ministerio de la ley",
+      "archivo": "articulo_655.txt"
+    },
+    {
+      "numero": 656,
+      "titulo": "Procedencia",
+      "archivo": "articulo_656.txt"
+    },
+    {
+      "numero": 657,
+      "titulo": "Trámite",
+      "archivo": "articulo_657.txt"
+    },
+    {
+      "numero": 658,
+      "titulo": "Procedencia",
+      "archivo": "articulo_658.txt"
+    },
+    {
+      "numero": 659,
+      "titulo": "Recurrente",
+      "archivo": "articulo_659.txt"
+    },
+    {
+      "numero": 660,
+      "titulo": "Trámite",
+      "archivo": "articulo_660.txt"
+    },
+    {
+      "numero": 661,
+      "titulo": "Procedencia y trámite",
+      "archivo": "articulo_661.txt"
+    },
+    {
+      "numero": 662,
+      "titulo": "Normas generales",
+      "archivo": "articulo_662.txt"
+    },
+    {
+      "numero": 663,
+      "titulo": "Conciliación",
+      "archivo": "articulo_663.txt"
+    },
+    {
+      "numero": 664,
+      "titulo": "Principios",
+      "archivo": "articulo_664.txt"
+    },
+    {
+      "numero": 665,
+      "titulo": "Reglas generales",
+      "archivo": "articulo_665.txt"
+    },
+    {
+      "numero": 666,
+      "titulo": "Competencia",
+      "archivo": "articulo_666.txt"
+    },
+    {
+      "numero": 667,
+      "titulo": "Cómputo de la pena",
+      "archivo": "articulo_667.txt"
+    },
+    {
+      "numero": 668,
+      "titulo": "Lugar diferente",
+      "archivo": "articulo_668.txt"
+    },
+    {
+      "numero": 669,
+      "titulo": "Vigilancia y control",
+      "archivo": "articulo_669.txt"
+    },
+    {
+      "numero": 670,
+      "titulo": "Procedimiento",
+      "archivo": "articulo_670.txt"
+    },
+    {
+      "numero": 671,
+      "titulo": "Remisión de la persona ofendida",
+      "archivo": "articulo_671.txt"
+    },
+    {
+      "numero": 672,
+      "titulo": "Sistema Nacional de Rehabilitación Social",
+      "archivo": "articulo_672.txt"
+    },
+    {
+      "numero": 673,
+      "titulo": "Finalidad",
+      "archivo": "articulo_673.txt"
+    },
+    {
+      "numero": 674,
+      "titulo": "Organismo Técnico",
+      "archivo": "articulo_674.txt"
+    },
+    {
+      "numero": 675,
+      "titulo": "Directorio",
+      "archivo": "articulo_675.txt"
+    },
+    {
+      "numero": 676,
+      "titulo": "Responsabilidad del Estado",
+      "archivo": "articulo_676.txt"
+    },
+    {
+      "numero": 677,
+      "titulo": "Centro de formación y capacitación penitenciaria",
+      "archivo": "articulo_677.txt"
+    },
+    {
+      "numero": 678,
+      "titulo": "Centros de privación de libertad",
+      "archivo": "articulo_678.txt"
+    },
+    {
+      "numero": 679,
+      "titulo": "Ingreso",
+      "archivo": "articulo_679.txt"
+    },
+    {
+      "numero": 680,
+      "titulo": "Organización y funcionamiento",
+      "archivo": "articulo_680.txt"
+    },
+    {
+      "numero": 681,
+      "titulo": "Registro obligatorio de las personas privadas de libertad",
+      "archivo": "articulo_681.txt"
+    },
+    {
+      "numero": 682,
+      "titulo": "Separación",
+      "archivo": "articulo_682.txt"
+    },
+    {
+      "numero": 683,
+      "titulo": "Examen obligatorio de salud",
+      "archivo": "articulo_683.txt"
+    },
+    {
+      "numero": 684,
+      "titulo": "Instalaciones",
+      "archivo": "articulo_684.txt"
+    },
+    {
+      "numero": 685,
+      "titulo": "Seguridad interna y perimetral de los centros de privación de libertad",
+      "archivo": "articulo_685.txt"
+    },
+    {
+      "numero": 686,
+      "titulo": "Supervisión y vigilancia",
+      "archivo": "articulo_686.txt"
+    },
+    {
+      "numero": 687,
+      "titulo": "Dirección",
+      "archivo": "articulo_687.txt"
+    },
+    {
+      "numero": 688,
+      "titulo": "Organismo encargado",
+      "archivo": "articulo_688.txt"
+    },
+    {
+      "numero": 689,
+      "titulo": "Incumplimiento y sanciones",
+      "archivo": "articulo_689.txt"
+    },
+    {
+      "numero": 690,
+      "titulo": "Régimen ocupacional de las personas privadas de libertad",
+      "archivo": "articulo_690.txt"
+    },
+    {
+      "numero": 691,
+      "titulo": "Lugar de cumplimiento",
+      "archivo": "articulo_691.txt"
+    },
+    {
+      "numero": 692,
+      "titulo": "Fases del régimen",
+      "archivo": "articulo_692.txt"
+    },
+    {
+      "numero": 693,
+      "titulo": "Lugar de cumplimiento de la pena",
+      "archivo": "articulo_693.txt"
+    },
+    {
+      "numero": 694,
+      "titulo": "Niveles de seguridad",
+      "archivo": "articulo_694.txt"
+    },
+    {
+      "numero": 695,
+      "titulo": "Sistema de progresividad",
+      "archivo": "articulo_695.txt"
+    },
+    {
+      "numero": 696,
+      "titulo": "Regímenes de rehabilitación social",
+      "archivo": "articulo_696.txt"
+    },
+    {
+      "numero": 697,
+      "titulo": "Régimen cerrado",
+      "archivo": "articulo_697.txt"
+    },
+    {
+      "numero": 698,
+      "titulo": "Régimen semiabierto",
+      "archivo": "articulo_698.txt"
+    },
+    {
+      "numero": 699,
+      "titulo": "Régimen abierto",
+      "archivo": "articulo_699.txt"
+    },
+    {
+      "numero": 700,
+      "titulo": "Asistencia al cumplimiento de la pena",
+      "archivo": "articulo_700.txt"
+    },
+    {
+      "numero": 701,
+      "titulo": "Ejes de tratamiento",
+      "archivo": "articulo_701.txt"
+    },
+    {
+      "numero": 702,
+      "titulo": "Eje laboral",
+      "archivo": "articulo_702.txt"
+    },
+    {
+      "numero": 703,
+      "titulo": "Remuneraciones",
+      "archivo": "articulo_703.txt"
+    },
+    {
+      "numero": 704,
+      "titulo": "Eje de educación, cultura y deporte",
+      "archivo": "articulo_704.txt"
+    },
+    {
+      "numero": 705,
+      "titulo": "Eje de salud",
+      "archivo": "articulo_705.txt"
+    },
+    {
+      "numero": 706,
+      "titulo": "Eje de vinculación familiar y social",
+      "archivo": "articulo_706.txt"
+    },
+    {
+      "numero": 707,
+      "titulo": "Eje de reinserción",
+      "archivo": "articulo_707.txt"
+    },
+    {
+      "numero": 708,
+      "titulo": "Plan individualizado de cumplimiento de la pena",
+      "archivo": "articulo_708.txt"
+    },
+    {
+      "numero": 709,
+      "titulo": "Programas",
+      "archivo": "articulo_709.txt"
+    },
+    {
+      "numero": 710,
+      "titulo": "Programas de tratamiento para grupos de atención prioritaria",
+      "archivo": "articulo_710.txt"
+    },
+    {
+      "numero": 711,
+      "titulo": "Registro de actividades de programas",
+      "archivo": "articulo_711.txt"
+    },
+    {
+      "numero": 712,
+      "titulo": "Certificación",
+      "archivo": "articulo_712.txt"
+    },
+    {
+      "numero": 713,
+      "titulo": "Relaciones familiares y sociales",
+      "archivo": "articulo_713.txt"
+    },
+    {
+      "numero": 714,
+      "titulo": "Visitas autorizadas",
+      "archivo": "articulo_714.txt"
+    },
+    {
+      "numero": 715,
+      "titulo": "Características del régimen de visitas",
+      "archivo": "articulo_715.txt"
+    },
+    {
+      "numero": 716,
+      "titulo": "Comunicación y difusión",
+      "archivo": "articulo_716.txt"
+    },
+    {
+      "numero": 717,
+      "titulo": "Horario de las visitas",
+      "archivo": "articulo_717.txt"
+    },
+    {
+      "numero": 718,
+      "titulo": "Ingreso de objetos ilegales",
+      "archivo": "articulo_718.txt"
+    },
+    {
+      "numero": 719,
+      "titulo": "Finalidad",
+      "archivo": "articulo_719.txt"
+    },
+    {
+      "numero": 720,
+      "titulo": "Seguridad preventiva",
+      "archivo": "articulo_720.txt"
+    },
+    {
+      "numero": 721,
+      "titulo": "Faltas disciplinarias",
+      "archivo": "articulo_721.txt"
+    },
+    {
+      "numero": 722,
+      "titulo": "Faltas leves",
+      "archivo": "articulo_722.txt"
+    },
+    {
+      "numero": 723,
+      "titulo": "Faltas graves",
+      "archivo": "articulo_723.txt"
+    },
+    {
+      "numero": 724,
+      "titulo": "Faltas gravísimas",
+      "archivo": "articulo_724.txt"
+    },
+    {
+      "numero": 725,
+      "titulo": "Sanciones",
+      "archivo": "articulo_725.txt"
+    },
+    {
+      "numero": 726,
+      "titulo": "Procedimiento",
+      "archivo": "articulo_726.txt"
+    },
+    {
+      "numero": 727,
+      "titulo": "Repatriación",
+      "archivo": "articulo_727.txt"
+    },
+    {
+      "numero": 728,
+      "titulo": "Reglas",
+      "archivo": "articulo_728.txt"
+    },
+    {
+      "numero": 729,
+      "titulo": "Condiciones para el traslado y el cumplimiento de condenas para extranjeros",
+      "archivo": "articulo_729.txt"
+    },
+    {
+      "numero": 730,
+      "titulo": "Exoneración de multas en caso de repatriación",
+      "archivo": "articulo_730.txt"
+    },
+    {
+      "numero": 224,
+      "titulo": "Jueza o juez de garantías penales",
+      "archivo": "articulo_224.txt"
+    },
+    {
+      "numero": 225,
+      "titulo": "Competencia",
+      "archivo": "articulo_225.txt"
+    },
+    {
+      "numero": 342,
+      "titulo": "b",
+      "archivo": "articulo_342.txt"
+    },
+    {
+      "numero": 348,
+      "titulo": "b",
+      "archivo": "articulo_348.txt"
+    },
+    {
+      "numero": 348,
+      "titulo": "c",
+      "archivo": "articulo_348.txt"
+    },
+    {
+      "numero": 348,
+      "titulo": "d",
+      "archivo": "articulo_348.txt"
+    },
+    {
+      "numero": 359,
+      "titulo": "Audiencia de Juicio",
+      "archivo": "articulo_359.txt"
+    },
+    {
+      "numero": 360,
+      "titulo": "Alegatos de cierre",
+      "archivo": "articulo_360.txt"
+    },
+    {
+      "numero": 361,
+      "titulo": "La sentencia",
+      "archivo": "articulo_361.txt"
+    },
+    {
+      "numero": 362,
+      "titulo": "Requisitos de la sentencia",
+      "archivo": "articulo_362.txt"
+    },
+    {
+      "numero": 363,
+      "titulo": "Existencia de varios adolescentes sentenciados",
+      "archivo": "articulo_363.txt"
+    },
+    {
+      "numero": 363,
+      "titulo": "a",
+      "archivo": "articulo_363.txt"
+    },
+    {
+      "numero": 363,
+      "titulo": "b",
+      "archivo": "articulo_363.txt"
+    },
+    {
+      "numero": 363,
+      "titulo": "c",
+      "archivo": "articulo_363.txt"
+    },
+    {
+      "numero": 363,
+      "titulo": "d",
+      "archivo": "articulo_363.txt"
+    },
+    {
+      "numero": 363,
+      "titulo": "e",
+      "archivo": "articulo_363.txt"
+    },
+    {
+      "numero": 370,
+      "titulo": "Ámbito",
+      "archivo": "articulo_370.txt"
+    },
+    {
+      "numero": 371,
+      "titulo": "Finalidad de las medidas socioeducativas",
+      "archivo": "articulo_371.txt"
+    },
+    {
+      "numero": 372,
+      "titulo": "Clases de medidas socioeducativas",
+      "archivo": "articulo_372.txt"
+    },
+    {
+      "numero": 373,
+      "titulo": "Apreciación de la edad",
+      "archivo": "articulo_373.txt"
+    },
+    {
+      "numero": 374,
+      "titulo": "Autoridad competente",
+      "archivo": "articulo_374.txt"
+    },
+    {
+      "numero": 375,
+      "titulo": "Asistencia posterior al cumplimiento de la medida socioeducativa",
+      "archivo": "articulo_375.txt"
+    },
+    {
+      "numero": 376,
+      "titulo": "Convenios",
+      "archivo": "articulo_376.txt"
+    },
+    {
+      "numero": 377,
+      "titulo": "Entidad competente",
+      "archivo": "articulo_377.txt"
+    },
+    {
+      "numero": 378,
+      "titulo": "Medidas socioeducativas no privativas de libertad",
+      "archivo": "articulo_378.txt"
+    },
+    {
+      "numero": 379,
+      "titulo": "Medidas socioeducativas privativas de libertad",
+      "archivo": "articulo_379.txt"
+    },
+    {
+      "numero": 380,
+      "titulo": "Regímenes de ejecución de la medida socioeducativa de Internamiento Institucional",
+      "archivo": "articulo_380.txt"
+    },
+    {
+      "numero": 381,
+      "titulo": "Régimen cerrado",
+      "archivo": "articulo_381.txt"
+    },
+    {
+      "numero": 382,
+      "titulo": "Régimen semiabierto",
+      "archivo": "articulo_382.txt"
+    },
+    {
+      "numero": 383,
+      "titulo": "Régimen abierto",
+      "archivo": "articulo_383.txt"
+    },
+    {
+      "numero": 384,
+      "titulo": "Aplicación de las medidas socioeducativas en contravenciones",
+      "archivo": "articulo_384.txt"
+    },
+    {
+      "numero": 385,
+      "titulo": "5",
+      "archivo": "articulo_385.txt"
+    },
+    {
+      "numero": 386,
+      "titulo": "Solicitud de aplicación o modificación de los regímenes de ejecución",
+      "archivo": "articulo_386.txt"
+    },
+    {
+      "numero": 387,
+      "titulo": "Incumplimiento de medidas socioeducativas",
+      "archivo": "articulo_387.txt"
+    },
+    {
+      "numero": 388,
+      "titulo": "Continuidad del cumplimiento de medidas socioeducativas del mayor de edad",
+      "archivo": "articulo_388.txt"
+    },
+    {
+      "numero": 389,
+      "titulo": "Salidas emergentes",
+      "archivo": "articulo_389.txt"
+    },
+    {
+      "numero": 390,
+      "titulo": "Modelo de atención integral",
+      "archivo": "articulo_390.txt"
+    },
+    {
+      "numero": 391,
+      "titulo": "Instancias encargadas del cumplimiento de las medidas socioeducativas",
+      "archivo": "articulo_391.txt"
+    },
+    {
+      "numero": 392,
+      "titulo": "Registro obligatorio de los adolescentes infractores",
+      "archivo": "articulo_392.txt"
+    },
+    {
+      "numero": 393,
+      "titulo": "Secciones de los Centros de adolescentes infractores",
+      "archivo": "articulo_393.txt"
+    },
+    {
+      "numero": 394,
+      "titulo": "Ingreso",
+      "archivo": "articulo_394.txt"
+    },
+    {
+      "numero": 395,
+      "titulo": "Examen obligatorio de salud",
+      "archivo": "articulo_395.txt"
+    },
+    {
+      "numero": 396,
+      "titulo": "Seguridad interna y externa de los Centros de adolescentes infractores",
+      "archivo": "articulo_396.txt"
+    },
+    {
+      "numero": 397,
+      "titulo": "Supervisión y vigilancia",
+      "archivo": "articulo_397.txt"
+    },
+    {
+      "numero": 398,
+      "titulo": "Traslado",
+      "archivo": "articulo_398.txt"
+    },
+    {
+      "numero": 399,
+      "titulo": "Criterios de seguridad en los Centros de adolescentes infractores",
+      "archivo": "articulo_399.txt"
+    },
+    {
+      "numero": 400,
+      "titulo": "Plan individual de aplicación de la medida socioeducativa",
+      "archivo": "articulo_400.txt"
+    },
+    {
+      "numero": 401,
+      "titulo": "Programas",
+      "archivo": "articulo_401.txt"
+    },
+    {
+      "numero": 402,
+      "titulo": "Registro de actividades de programas",
+      "archivo": "articulo_402.txt"
+    },
+    {
+      "numero": 403,
+      "titulo": "Egreso del adolescente del centro",
+      "archivo": "articulo_403.txt"
+    },
+    {
+      "numero": 404,
+      "titulo": "Medidas de control y disciplina",
+      "archivo": "articulo_404.txt"
+    },
+    {
+      "numero": 405,
+      "titulo": "Asistencia al adolescente sancionado",
+      "archivo": "articulo_405.txt"
+    },
+    {
+      "numero": 406,
+      "titulo": "Faltas que conlleven presunciones de responsabilidad penal",
+      "archivo": "articulo_406.txt"
+    },
+    {
+      "numero": 407,
+      "titulo": "Relaciones familiares y sociales",
+      "archivo": "articulo_407.txt"
+    },
+    {
+      "numero": 408,
+      "titulo": "Visitas autorizadas",
+      "archivo": "articulo_408.txt"
+    },
+    {
+      "numero": 409,
+      "titulo": "Características del régimen de visitas",
+      "archivo": "articulo_409.txt"
+    },
+    {
+      "numero": 410,
+      "titulo": "Horario de las visitas",
+      "archivo": "articulo_410.txt"
+    },
+    {
+      "numero": 411,
+      "titulo": "Objetos prohibidos",
+      "archivo": "articulo_411.txt"
+    },
+    {
+      "numero": 412,
+      "titulo": "Visita íntima",
+      "archivo": "articulo_412.txt"
+    },
+    {
+      "numero": 413,
+      "titulo": "Autoridad competente",
+      "archivo": "articulo_413.txt"
+    },
+    {
+      "numero": 414,
+      "titulo": "Seguridad preventiva",
+      "archivo": "articulo_414.txt"
+    },
+    {
+      "numero": 415,
+      "titulo": "Obligaciones de los adolescentes infractores",
+      "archivo": "articulo_415.txt"
+    },
+    {
+      "numero": 416,
+      "titulo": "Faltas disciplinarias",
+      "archivo": "articulo_416.txt"
+    },
+    {
+      "numero": 417,
+      "titulo": "Faltas leves",
+      "archivo": "articulo_417.txt"
+    },
+    {
+      "numero": 418,
+      "titulo": "Faltas graves",
+      "archivo": "articulo_418.txt"
+    },
+    {
+      "numero": 419,
+      "titulo": "Sanciones",
+      "archivo": "articulo_419.txt"
+    },
+    {
+      "numero": 420,
+      "titulo": "Procedimiento administrativo",
+      "archivo": "articulo_420.txt"
+    },
+    {
+      "numero": 421,
+      "titulo": "Alteración del orden en los Centros de Adolescentes Infractores",
+      "archivo": "articulo_421.txt"
+    },
+    {
+      "numero": 422,
+      "titulo": "Fuga",
+      "archivo": "articulo_422.txt"
+    },
+    {
+      "numero": 423,
+      "titulo": "Normas supletorias",
+      "archivo": "articulo_423.txt"
+    }
+  ]
+}

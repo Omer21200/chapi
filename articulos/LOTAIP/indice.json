@@ -1,0 +1,826 @@
+{
+  "nombreLey": "LOTAIP",
+  "totalArticulos": 164,
+  "articulos": [
+    {
+      "numero": 1,
+      "titulo": "",
+      "archivo": "articulo_001.txt"
+    },
+    {
+      "numero": 2,
+      "titulo": "",
+      "archivo": "articulo_002.txt"
+    },
+    {
+      "numero": 3,
+      "titulo": "",
+      "archivo": "articulo_003.txt"
+    },
+    {
+      "numero": 4,
+      "titulo": "",
+      "archivo": "articulo_004.txt"
+    },
+    {
+      "numero": 5,
+      "titulo": "",
+      "archivo": "articulo_005.txt"
+    },
+    {
+      "numero": 6,
+      "titulo": "El Estado es propietario de las vías públicas, administrará y regulará su uso",
+      "archivo": "articulo_006.txt"
+    },
+    {
+      "numero": 7,
+      "titulo": "",
+      "archivo": "articulo_007.txt"
+    },
+    {
+      "numero": 8,
+      "titulo": "",
+      "archivo": "articulo_008.txt"
+    },
+    {
+      "numero": 9,
+      "titulo": "",
+      "archivo": "articulo_009.txt"
+    },
+    {
+      "numero": 10,
+      "titulo": "0",
+      "archivo": "articulo_010.txt"
+    },
+    {
+      "numero": 11,
+      "titulo": "1",
+      "archivo": "articulo_011.txt"
+    },
+    {
+      "numero": 12,
+      "titulo": "2",
+      "archivo": "articulo_012.txt"
+    },
+    {
+      "numero": 13,
+      "titulo": "3",
+      "archivo": "articulo_013.txt"
+    },
+    {
+      "numero": 14,
+      "titulo": "4",
+      "archivo": "articulo_014.txt"
+    },
+    {
+      "numero": 15,
+      "titulo": "5",
+      "archivo": "articulo_015.txt"
+    },
+    {
+      "numero": 16,
+      "titulo": "6",
+      "archivo": "articulo_016.txt"
+    },
+    {
+      "numero": 17,
+      "titulo": "7",
+      "archivo": "articulo_017.txt"
+    },
+    {
+      "numero": 18,
+      "titulo": "8",
+      "archivo": "articulo_018.txt"
+    },
+    {
+      "numero": 19,
+      "titulo": "9",
+      "archivo": "articulo_019.txt"
+    },
+    {
+      "numero": 20,
+      "titulo": "0",
+      "archivo": "articulo_020.txt"
+    },
+    {
+      "numero": 21,
+      "titulo": "1",
+      "archivo": "articulo_021.txt"
+    },
+    {
+      "numero": 22,
+      "titulo": "2",
+      "archivo": "articulo_022.txt"
+    },
+    {
+      "numero": 23,
+      "titulo": "3",
+      "archivo": "articulo_023.txt"
+    },
+    {
+      "numero": 24,
+      "titulo": "4",
+      "archivo": "articulo_024.txt"
+    },
+    {
+      "numero": 25,
+      "titulo": "5",
+      "archivo": "articulo_025.txt"
+    },
+    {
+      "numero": 26,
+      "titulo": "Nota: Artículo derogado por Ley No",
+      "archivo": "articulo_026.txt"
+    },
+    {
+      "numero": 27,
+      "titulo": "7",
+      "archivo": "articulo_027.txt"
+    },
+    {
+      "numero": 28,
+      "titulo": "8",
+      "archivo": "articulo_028.txt"
+    },
+    {
+      "numero": 29,
+      "titulo": "9",
+      "archivo": "articulo_029.txt"
+    },
+    {
+      "numero": 30,
+      "titulo": "0",
+      "archivo": "articulo_030.txt"
+    },
+    {
+      "numero": 44,
+      "titulo": "Nota: Artículo derogado por Ley No",
+      "archivo": "articulo_044.txt"
+    },
+    {
+      "numero": 45,
+      "titulo": "Nota: Artículo derogado por Ley No",
+      "archivo": "articulo_045.txt"
+    },
+    {
+      "numero": 46,
+      "titulo": "6",
+      "archivo": "articulo_046.txt"
+    },
+    {
+      "numero": 47,
+      "titulo": "7",
+      "archivo": "articulo_047.txt"
+    },
+    {
+      "numero": 48,
+      "titulo": "8",
+      "archivo": "articulo_048.txt"
+    },
+    {
+      "numero": 49,
+      "titulo": "9",
+      "archivo": "articulo_049.txt"
+    },
+    {
+      "numero": 50,
+      "titulo": "0",
+      "archivo": "articulo_050.txt"
+    },
+    {
+      "numero": 51,
+      "titulo": "1",
+      "archivo": "articulo_051.txt"
+    },
+    {
+      "numero": 52,
+      "titulo": "2",
+      "archivo": "articulo_052.txt"
+    },
+    {
+      "numero": 53,
+      "titulo": "Prohíbese toda forma de monopolio y oligopolio en el servicio de transporte terrestre",
+      "archivo": "articulo_053.txt"
+    },
+    {
+      "numero": 54,
+      "titulo": "4",
+      "archivo": "articulo_054.txt"
+    },
+    {
+      "numero": 55,
+      "titulo": "5",
+      "archivo": "articulo_055.txt"
+    },
+    {
+      "numero": 56,
+      "titulo": "6",
+      "archivo": "articulo_056.txt"
+    },
+    {
+      "numero": 57,
+      "titulo": "7",
+      "archivo": "articulo_057.txt"
+    },
+    {
+      "numero": 58,
+      "titulo": "8",
+      "archivo": "articulo_058.txt"
+    },
+    {
+      "numero": 59,
+      "titulo": "9",
+      "archivo": "articulo_059.txt"
+    },
+    {
+      "numero": 60,
+      "titulo": "0",
+      "archivo": "articulo_060.txt"
+    },
+    {
+      "numero": 61,
+      "titulo": "1",
+      "archivo": "articulo_061.txt"
+    },
+    {
+      "numero": 62,
+      "titulo": "2",
+      "archivo": "articulo_062.txt"
+    },
+    {
+      "numero": 63,
+      "titulo": "3",
+      "archivo": "articulo_063.txt"
+    },
+    {
+      "numero": 64,
+      "titulo": "4",
+      "archivo": "articulo_064.txt"
+    },
+    {
+      "numero": 65,
+      "titulo": "5",
+      "archivo": "articulo_065.txt"
+    },
+    {
+      "numero": 66,
+      "titulo": "6",
+      "archivo": "articulo_066.txt"
+    },
+    {
+      "numero": 67,
+      "titulo": "7",
+      "archivo": "articulo_067.txt"
+    },
+    {
+      "numero": 68,
+      "titulo": "8",
+      "archivo": "articulo_068.txt"
+    },
+    {
+      "numero": 69,
+      "titulo": "9",
+      "archivo": "articulo_069.txt"
+    },
+    {
+      "numero": 70,
+      "titulo": "0",
+      "archivo": "articulo_070.txt"
+    },
+    {
+      "numero": 71,
+      "titulo": "1",
+      "archivo": "articulo_071.txt"
+    },
+    {
+      "numero": 72,
+      "titulo": "2",
+      "archivo": "articulo_072.txt"
+    },
+    {
+      "numero": 73,
+      "titulo": "3",
+      "archivo": "articulo_073.txt"
+    },
+    {
+      "numero": 74,
+      "titulo": "4",
+      "archivo": "articulo_074.txt"
+    },
+    {
+      "numero": 75,
+      "titulo": "5",
+      "archivo": "articulo_075.txt"
+    },
+    {
+      "numero": 76,
+      "titulo": "6",
+      "archivo": "articulo_076.txt"
+    },
+    {
+      "numero": 77,
+      "titulo": "7",
+      "archivo": "articulo_077.txt"
+    },
+    {
+      "numero": 78,
+      "titulo": "8",
+      "archivo": "articulo_078.txt"
+    },
+    {
+      "numero": 79,
+      "titulo": "9",
+      "archivo": "articulo_079.txt"
+    },
+    {
+      "numero": 80,
+      "titulo": "Infracciones de Primera Clase",
+      "archivo": "articulo_080.txt"
+    },
+    {
+      "numero": 81,
+      "titulo": "Infracciones de Segunda Clase",
+      "archivo": "articulo_081.txt"
+    },
+    {
+      "numero": 82,
+      "titulo": "Infracciones de Tercera Clase",
+      "archivo": "articulo_082.txt"
+    },
+    {
+      "numero": 83,
+      "titulo": "3",
+      "archivo": "articulo_083.txt"
+    },
+    {
+      "numero": 84,
+      "titulo": "4",
+      "archivo": "articulo_084.txt"
+    },
+    {
+      "numero": 85,
+      "titulo": "5",
+      "archivo": "articulo_085.txt"
+    },
+    {
+      "numero": 86,
+      "titulo": "6",
+      "archivo": "articulo_086.txt"
+    },
+    {
+      "numero": 87,
+      "titulo": "7",
+      "archivo": "articulo_087.txt"
+    },
+    {
+      "numero": 88,
+      "titulo": "8",
+      "archivo": "articulo_088.txt"
+    },
+    {
+      "numero": 89,
+      "titulo": "9",
+      "archivo": "articulo_089.txt"
+    },
+    {
+      "numero": 90,
+      "titulo": "0",
+      "archivo": "articulo_090.txt"
+    },
+    {
+      "numero": 91,
+      "titulo": "1",
+      "archivo": "articulo_091.txt"
+    },
+    {
+      "numero": 92,
+      "titulo": "2",
+      "archivo": "articulo_092.txt"
+    },
+    {
+      "numero": 93,
+      "titulo": "3",
+      "archivo": "articulo_093.txt"
+    },
+    {
+      "numero": 94,
+      "titulo": "4",
+      "archivo": "articulo_094.txt"
+    },
+    {
+      "numero": 95,
+      "titulo": "5",
+      "archivo": "articulo_095.txt"
+    },
+    {
+      "numero": 96,
+      "titulo": "6",
+      "archivo": "articulo_096.txt"
+    },
+    {
+      "numero": 97,
+      "titulo": "7",
+      "archivo": "articulo_097.txt"
+    },
+    {
+      "numero": 98,
+      "titulo": "8",
+      "archivo": "articulo_098.txt"
+    },
+    {
+      "numero": 99,
+      "titulo": "9",
+      "archivo": "articulo_099.txt"
+    },
+    {
+      "numero": 100,
+      "titulo": "0",
+      "archivo": "articulo_100.txt"
+    },
+    {
+      "numero": 101,
+      "titulo": "1",
+      "archivo": "articulo_101.txt"
+    },
+    {
+      "numero": 102,
+      "titulo": "2",
+      "archivo": "articulo_102.txt"
+    },
+    {
+      "numero": 103,
+      "titulo": "3",
+      "archivo": "articulo_103.txt"
+    },
+    {
+      "numero": 104,
+      "titulo": "4",
+      "archivo": "articulo_104.txt"
+    },
+    {
+      "numero": 105,
+      "titulo": "5",
+      "archivo": "articulo_105.txt"
+    },
+    {
+      "numero": 147,
+      "titulo": "7",
+      "archivo": "articulo_147.txt"
+    },
+    {
+      "numero": 148,
+      "titulo": "8",
+      "archivo": "articulo_148.txt"
+    },
+    {
+      "numero": 149,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_149.txt"
+    },
+    {
+      "numero": 150,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_150.txt"
+    },
+    {
+      "numero": 151,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_151.txt"
+    },
+    {
+      "numero": 152,
+      "titulo": "2",
+      "archivo": "articulo_152.txt"
+    },
+    {
+      "numero": 160,
+      "titulo": "Nota: Incisos 3o",
+      "archivo": "articulo_160.txt"
+    },
+    {
+      "numero": 161,
+      "titulo": "Nota: Artículo sustituido por Ley No",
+      "archivo": "articulo_161.txt"
+    },
+    {
+      "numero": 162,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_162.txt"
+    },
+    {
+      "numero": 163,
+      "titulo": "3",
+      "archivo": "articulo_163.txt"
+    },
+    {
+      "numero": 164,
+      "titulo": "4",
+      "archivo": "articulo_164.txt"
+    },
+    {
+      "numero": 165,
+      "titulo": "5",
+      "archivo": "articulo_165.txt"
+    },
+    {
+      "numero": 166,
+      "titulo": "6",
+      "archivo": "articulo_166.txt"
+    },
+    {
+      "numero": 167,
+      "titulo": "7",
+      "archivo": "articulo_167.txt"
+    },
+    {
+      "numero": 168,
+      "titulo": "8",
+      "archivo": "articulo_168.txt"
+    },
+    {
+      "numero": 169,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_169.txt"
+    },
+    {
+      "numero": 170,
+      "titulo": "Nota: Artículo reformado por Ley No",
+      "archivo": "articulo_170.txt"
+    },
+    {
+      "numero": 171,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_171.txt"
+    },
+    {
+      "numero": 172,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_172.txt"
+    },
+    {
+      "numero": 173,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_173.txt"
+    },
+    {
+      "numero": 174,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_174.txt"
+    },
+    {
+      "numero": 175,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_175.txt"
+    },
+    {
+      "numero": 176,
+      "titulo": "Nota: Artículo reformado por Ley No",
+      "archivo": "articulo_176.txt"
+    },
+    {
+      "numero": 177,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_177.txt"
+    },
+    {
+      "numero": 178,
+      "titulo": "Nota: Artículo sustituido por Ley No",
+      "archivo": "articulo_178.txt"
+    },
+    {
+      "numero": 179,
+      "titulo": "9",
+      "archivo": "articulo_179.txt"
+    },
+    {
+      "numero": 180,
+      "titulo": "Nota: Artículo derogado por Disposición Derogatoria Décimo Octava de Ley No",
+      "archivo": "articulo_180.txt"
+    },
+    {
+      "numero": 181,
+      "titulo": "1",
+      "archivo": "articulo_181.txt"
+    },
+    {
+      "numero": 182,
+      "titulo": "2",
+      "archivo": "articulo_182.txt"
+    },
+    {
+      "numero": 183,
+      "titulo": "3",
+      "archivo": "articulo_183.txt"
+    },
+    {
+      "numero": 184,
+      "titulo": "4",
+      "archivo": "articulo_184.txt"
+    },
+    {
+      "numero": 185,
+      "titulo": "5",
+      "archivo": "articulo_185.txt"
+    },
+    {
+      "numero": 186,
+      "titulo": "6",
+      "archivo": "articulo_186.txt"
+    },
+    {
+      "numero": 187,
+      "titulo": "7",
+      "archivo": "articulo_187.txt"
+    },
+    {
+      "numero": 188,
+      "titulo": "8",
+      "archivo": "articulo_188.txt"
+    },
+    {
+      "numero": 189,
+      "titulo": "9",
+      "archivo": "articulo_189.txt"
+    },
+    {
+      "numero": 190,
+      "titulo": "0",
+      "archivo": "articulo_190.txt"
+    },
+    {
+      "numero": 191,
+      "titulo": "1",
+      "archivo": "articulo_191.txt"
+    },
+    {
+      "numero": 192,
+      "titulo": "2",
+      "archivo": "articulo_192.txt"
+    },
+    {
+      "numero": 193,
+      "titulo": "3",
+      "archivo": "articulo_193.txt"
+    },
+    {
+      "numero": 194,
+      "titulo": "4",
+      "archivo": "articulo_194.txt"
+    },
+    {
+      "numero": 195,
+      "titulo": "5",
+      "archivo": "articulo_195.txt"
+    },
+    {
+      "numero": 196,
+      "titulo": "6",
+      "archivo": "articulo_196.txt"
+    },
+    {
+      "numero": 197,
+      "titulo": "7",
+      "archivo": "articulo_197.txt"
+    },
+    {
+      "numero": 198,
+      "titulo": "8",
+      "archivo": "articulo_198.txt"
+    },
+    {
+      "numero": 199,
+      "titulo": "9",
+      "archivo": "articulo_199.txt"
+    },
+    {
+      "numero": 200,
+      "titulo": "0",
+      "archivo": "articulo_200.txt"
+    },
+    {
+      "numero": 201,
+      "titulo": "1",
+      "archivo": "articulo_201.txt"
+    },
+    {
+      "numero": 202,
+      "titulo": "2",
+      "archivo": "articulo_202.txt"
+    },
+    {
+      "numero": 203,
+      "titulo": "3",
+      "archivo": "articulo_203.txt"
+    },
+    {
+      "numero": 204,
+      "titulo": "4",
+      "archivo": "articulo_204.txt"
+    },
+    {
+      "numero": 205,
+      "titulo": "5",
+      "archivo": "articulo_205.txt"
+    },
+    {
+      "numero": 206,
+      "titulo": "6",
+      "archivo": "articulo_206.txt"
+    },
+    {
+      "numero": 207,
+      "titulo": "7",
+      "archivo": "articulo_207.txt"
+    },
+    {
+      "numero": 208,
+      "titulo": "8",
+      "archivo": "articulo_208.txt"
+    },
+    {
+      "numero": 209,
+      "titulo": "9",
+      "archivo": "articulo_209.txt"
+    },
+    {
+      "numero": 210,
+      "titulo": "0",
+      "archivo": "articulo_210.txt"
+    },
+    {
+      "numero": 211,
+      "titulo": "1",
+      "archivo": "articulo_211.txt"
+    },
+    {
+      "numero": 212,
+      "titulo": "2",
+      "archivo": "articulo_212.txt"
+    },
+    {
+      "numero": 213,
+      "titulo": "3",
+      "archivo": "articulo_213.txt"
+    },
+    {
+      "numero": 214,
+      "titulo": "4",
+      "archivo": "articulo_214.txt"
+    },
+    {
+      "numero": 230,
+      "titulo": "0",
+      "archivo": "articulo_230.txt"
+    },
+    {
+      "numero": 231,
+      "titulo": "1",
+      "archivo": "articulo_231.txt"
+    },
+    {
+      "numero": 232,
+      "titulo": "Nota: Artículo derogado por Ley No",
+      "archivo": "articulo_232.txt"
+    },
+    {
+      "numero": 233,
+      "titulo": "Nota: Artículo derogado por Ley No",
+      "archivo": "articulo_233.txt"
+    },
+    {
+      "numero": 234,
+      "titulo": "4",
+      "archivo": "articulo_234.txt"
+    },
+    {
+      "numero": 235,
+      "titulo": "5",
+      "archivo": "articulo_235.txt"
+    },
+    {
+      "numero": 236,
+      "titulo": "6",
+      "archivo": "articulo_236.txt"
+    },
+    {
+      "numero": 237,
+      "titulo": "7",
+      "archivo": "articulo_237.txt"
+    },
+    {
+      "numero": 238,
+      "titulo": "8",
+      "archivo": "articulo_238.txt"
+    },
+    {
+      "numero": 239,
+      "titulo": "9",
+      "archivo": "articulo_239.txt"
+    },
+    {
+      "numero": 240,
+      "titulo": "0",
+      "archivo": "articulo_240.txt"
+    }
+  ]
+}
