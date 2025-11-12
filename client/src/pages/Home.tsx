@@ -38,7 +38,7 @@ export default function Home() {
 
   const sendGreeting = () => {
     const greeting: Message = {
-      id: Date.now().toString(),
+      id: typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`,
       content: "Hola, mi nombre es Chapi, soy tu agente virtual de tránsito. Estoy aquí para ayudarte con dudas sobre la movilidad.",
       sender: "bot",
       timestamp: new Date().toLocaleTimeString('es-EC', { hour: '2-digit', minute: '2-digit' }),
@@ -54,7 +54,7 @@ export default function Home() {
     }
 
     const userMessage: Message = {
-      id: Date.now().toString(),
+      id: typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`,
       content,
       sender: "user",
       timestamp: new Date().toLocaleTimeString('es-EC', { hour: '2-digit', minute: '2-digit' }),
@@ -84,7 +84,7 @@ export default function Home() {
 
       if (data.success && data.response) {
         const botMessage: Message = {
-          id: (Date.now() + 1).toString(),
+          id: typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`,
           content: data.response,
           sender: "bot",
           timestamp: new Date().toLocaleTimeString('es-EC', { hour: '2-digit', minute: '2-digit' }),
@@ -110,7 +110,7 @@ export default function Home() {
       });
       
       const errorMessage: Message = {
-        id: (Date.now() + 1).toString(),
+        id: typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`,
         content: "Lo siento, hubo un problema al procesar tu consulta. Por favor, intenta de nuevo.",
         sender: "bot",
         timestamp: new Date().toLocaleTimeString('es-EC', { hour: '2-digit', minute: '2-digit' }),
@@ -128,7 +128,7 @@ export default function Home() {
     
     setTimeout(() => {
       const farewell: Message = {
-        id: Date.now().toString(),
+          id: typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`,
         content: "¡Muchas gracias por usarme! No olvides consultarme. ¡Conduce con precaución!",
         sender: "bot",
         timestamp: new Date().toLocaleTimeString('es-EC', { hour: '2-digit', minute: '2-digit' }),
@@ -139,7 +139,7 @@ export default function Home() {
 
   const handleVerificationDetails = () => {
     const detailsMessage: Message = {
-      id: Date.now().toString(),
+      id: typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`,
       content: "Por supuesto, estaré encantado de darte más detalles. ¿Qué aspecto específico te gustaría que te explique con más profundidad?",
       sender: "bot",
       timestamp: new Date().toLocaleTimeString('es-EC', { hour: '2-digit', minute: '2-digit' }),

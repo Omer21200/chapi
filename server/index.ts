@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
@@ -53,8 +54,16 @@ app.use((req, res, next) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
 
-    res.status(status).json({ message });
-    throw err;
+    // Log the error for debugging but do NOT rethrow here. Rethrowing
+    // an error from the Express error handler can cause the Node process
+    // to crash (unhandled 'error' event). Respond to the client and continue.
+    console.error("Unhandled error:", err);
+    try {
+      res.status(status).json({ message });
+    } catch (sendErr) {
+      // If sending the response fails, log and move on.
+      console.error("Error sending error response:", sendErr);
+    }
   });
 
   // importantly only setup vite in development and after

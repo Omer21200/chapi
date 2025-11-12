@@ -107,36 +107,103 @@ export async function getChapiResponse(userMessage: string, conversationHistory:
     const articulosRelevantes = await legalArticlesManager.buscarArticulosRelevantes(userMessage, 5);
     const contextoArticulos = legalArticlesManager.formatearArticulosParaContexto(articulosRelevantes);
 
-    // Construir el prompt completo con los artículos relevantes
-    let promptCompleto = CHAPI_SYSTEM_PROMPT;
-    
-    // Agregar contexto de artículos legales si existen
-    if (contextoArticulos) {
-      promptCompleto += contextoArticulos;
-      promptCompleto += "\n\nIMPORTANTE: Usa la información de los artículos legales proporcionados arriba para responder la pregunta del usuario. Cita siempre los artículos específicos cuando los uses.";
-    } else {
-      promptCompleto += "\n\nNota: No se encontraron artículos legales específicos para esta consulta. Usa tu conocimiento base pero indica que es información general.";
+    // Build a short system instruction and move detailed legal context into the user message.
+    // Sending very long `systemInstruction` can trigger a 400 from Gemini (Invalid value at 'system_instruction').
+    const SHORT_SYSTEM_PROMPT = `Eres Chapi, un asistente virtual especializado en consultas sobre tránsito y movilidad en Ecuador. Responde de forma clara, cita artículos legales relevantes cuando correspondan, y mantén un tono amable y educativo.`;
+
+    // Create a summarized context for each relevant article (first 150 chars)
+    let contextoArticulosResumido = "";
+    if (articulosRelevantes && articulosRelevantes.length > 0) {
+      contextoArticulosResumido = "ARTÍCULOS LEGALES RELEVANTES (resumen):\n";
+      articulosRelevantes.forEach((articulo) => {
+        const titulo = articulo.titulo ? `: ${articulo.titulo}` : "";
+        const snippet = (articulo.contenido || "").replace(/\s+/g, " ").trim().slice(0, 150);
+        contextoArticulosResumido += `[${articulo.ley} - Art ${articulo.numero}${titulo}] ${snippet}...\n`;
+      });
+      contextoArticulosResumido += "\nIMPORTANTE: Usa los artículos anteriores como referencia y cita los números cuando los uses.\n\n";
     }
 
-    // Construir el historial de conversación para Gemini
-    // Gemini usa un formato diferente: alterna entre usuario y modelo
+    // Build Gemini chat with a short system instruction.
+    // The API expects a Content-like structure for systemInstruction
+    // (similar to the 'parts' shape used in history entries). Wrap the
+    // short prompt inside that shape to avoid "Invalid value at 'system_instruction'".
+  const systemInstructionObj = { role: "system", parts: [{ text: SHORT_SYSTEM_PROMPT }] };
+
     const chat = model.startChat({
-      history: conversationHistory.map((msg, index) => {
-        // Gemini espera roles 'user' y 'model' (no 'assistant')
-        return {
-          role: msg.role === "assistant" ? "model" : "user",
-          parts: [{ text: msg.content }],
-        };
-      }),
-      systemInstruction: promptCompleto,
+      history: conversationHistory.map((msg) => ({
+        role: msg.role === "assistant" ? "model" : "user",
+        parts: [{ text: msg.content }],
+      })),
+      systemInstruction: systemInstructionObj,
     });
 
-    // Enviar el mensaje del usuario
-    const result = await chat.sendMessage(userMessage);
-    const response = await result.response;
-    const text = response.text();
+    // Combine the summarized articles with the user's question into one message
+    const combinedUserMessage = `${contextoArticulosResumido}Pregunta: ${userMessage}`;
 
-    return text || "Lo siento, no pude procesar tu consulta. ¿Podrías intentar de nuevo?";
+    // If combinedUserMessage is excessively long, truncate to a safe limit
+  const MAX_USER_MESSAGE_CHARS = 2000;
+    const safeUserMessage = combinedUserMessage.length > MAX_USER_MESSAGE_CHARS
+      ? combinedUserMessage.slice(0, MAX_USER_MESSAGE_CHARS) + "\n\n[EL CONTEXTO HA SIDO RECORTADO POR LONGITUD]"
+      : combinedUserMessage;
+
+    // DEBUG LOGS: print summary of what's being sent to Gemini to help diagnose
+    try {
+      console.debug("[Chapi DEBUG] safeUserMessage length:", safeUserMessage.length);
+      console.debug("[Chapi DEBUG] safeUserMessage preview:\n", safeUserMessage.slice(0, 1000));
+    } catch (logErr) {
+      console.warn("[Chapi DEBUG] Could not log safeUserMessage:", logErr);
+    }
+
+    // Send the user's message (with summarized context)
+    // Implement a small retry/backoff loop for transient errors (503, 429, overloaded)
+    const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+    const MAX_ATTEMPTS = 3;
+    let attempt = 0;
+    let lastErr: any = null;
+
+    while (attempt < MAX_ATTEMPTS) {
+      attempt++;
+      try {
+        const result = await chat.sendMessage(safeUserMessage);
+        const response = await result.response;
+        const text = response.text();
+
+        // If the model returned an empty string, log some details to help debug
+        if (!text || String(text).trim().length === 0) {
+          try {
+            console.warn('[Chapi DEBUG] Gemini returned empty text. Inspecting result/response...');
+            console.warn('[Chapi DEBUG] result keys:', Object.keys(result || {}));
+            if (response && typeof (response as any).status === 'number') {
+              console.warn('[Chapi DEBUG] response.status:', (response as any).status);
+            }
+          } catch (logErr) {
+            console.warn('[Chapi DEBUG] Could not inspect Gemini response object:', logErr);
+          }
+        }
+
+        return text || "Lo siento, no pude procesar tu consulta. ¿Podrías intentar de nuevo?";
+      } catch (err: any) {
+        lastErr = err;
+        const status = err?.status;
+        const msg = err?.message || "";
+
+        // If it's a transient server-side or quota issue, retry with exponential backoff
+        if (status === 503 || status === 429 || msg.toLowerCase().includes('overload') || msg.toLowerCase().includes('quota')) {
+          const backoff = 500 * Math.pow(2, attempt - 1) + Math.floor(Math.random() * 200);
+          console.warn(`[Chapi DEBUG] Transient error from Gemini (attempt ${attempt}/${MAX_ATTEMPTS}). Retrying in ${backoff}ms.`, { status, message: msg });
+          // wait and retry
+          // eslint-disable-next-line no-await-in-loop
+          await sleep(backoff);
+          continue;
+        }
+
+        // Non-transient error: rethrow to be handled by outer catch
+        throw err;
+      }
+    }
+
+    // If we exhausted retries, throw the last error so outer catch can map it to a friendly message
+    throw lastErr;
   } catch (error: any) {
     console.error("Error calling Gemini:", error);
     
@@ -144,8 +211,8 @@ export async function getChapiResponse(userMessage: string, conversationHistory:
       return "Disculpa, hay un problema con la configuración de la API. Por favor, verifica que la clave de API de Gemini esté configurada correctamente.";
     }
     
-    if (error?.status === 429 || error?.message?.includes('quota')) {
-      return "Disculpa, el servicio de IA está temporalmente no disponible debido a límites de cuota. Por favor, intenta de nuevo más tarde.";
+    if (error?.status === 429 || error?.status === 503 || error?.message?.includes('quota')) {
+      return "Disculpa, el servicio de IA está temporalmente no disponible debido a límites de cuota o carga del servicio. Por favor, intenta de nuevo más tarde.";
     }
     
     if (error?.message?.includes('safety')) {
