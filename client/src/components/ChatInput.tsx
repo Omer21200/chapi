@@ -27,26 +27,29 @@ export default function ChatInput({ onSend, disabled }: ChatInputProps) {
 
   return (
     <div className="sticky bottom-0 p-4 bg-card border-t border-card-border">
-      <div className="max-w-4xl mx-auto relative">
-        <Textarea
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          onKeyDown={handleKeyDown}
-          placeholder="Escribe tu consulta sobre tránsito..."
-          className="resize-none pr-12 min-h-[3rem] max-h-32"
-          rows={1}
-          disabled={disabled}
-          data-testid="input-chat"
-        />
-        <Button
-          size="icon"
-          onClick={handleSend}
-          disabled={!message.trim() || disabled}
-          className="absolute right-2 bottom-2"
-          data-testid="button-send"
-        >
-          <Send className="w-4 h-4" />
-        </Button>
+      <div className="max-w-4xl mx-auto">
+        <div className="flex items-end gap-3">
+          <Textarea
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            onKeyDown={handleKeyDown}
+            placeholder="Escribe tu consulta sobre tránsito..."
+            className="resize-none flex-1 min-h-[3rem] max-h-32"
+            rows={1}
+            disabled={disabled}
+            data-testid="input-chat"
+          />
+
+          <Button
+            size="icon"
+            onClick={handleSend}
+            disabled={!message.trim() || disabled}
+            className="self-center"
+            data-testid="button-send"
+          >
+            <Send className="w-4 h-4" />
+          </Button>
+        </div>
       </div>
     </div>
   );

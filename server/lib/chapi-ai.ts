@@ -8,7 +8,9 @@ const model = genAI.getGenerativeModel({
   model: "gemini-2.5-flash",
   generationConfig: {
     temperature: 0.7,
-    maxOutputTokens: 1200,
+    // Aumentado para reducir probabilidades de truncamiento; todavía mantenemos
+    // una estrategia de continuación si el modelo se corta por MAX_TOKENS.
+    maxOutputTokens: 2000,
   }
 });
 
@@ -119,20 +121,117 @@ export async function getChapiResponse(userMessage: string, conversationHistory:
       attempt++;
       try {
         const result = await chat.sendMessage(safeUserMessage);
-        const response = await result.response;
-        const text = response.text();
 
-        // If the model returned an empty string, log some details to help debug
-        if (!text || String(text).trim().length === 0) {
-          try {
-            console.warn('[Chapi DEBUG] Gemini returned empty text. Inspecting result/response...');
-            console.warn('[Chapi DEBUG] result keys:', Object.keys(result || {}));
-            if (response && typeof (response as any).status === 'number') {
-              console.warn('[Chapi DEBUG] response.status:', (response as any).status);
+        // Robust extraction of text from the SDK response. The SDK shape can vary
+        // (sometimes response is an object with .text(), sometimes an array, etc.).
+        let text = "";
+        try {
+          const resp = await (result?.response);
+          const respObj: any = resp;
+
+          const safeStringify = (obj: any) => {
+            try { return JSON.stringify(obj, (k, v) => typeof v === 'function' ? '[Function]' : v, 2); } catch (_) { return String(obj); }
+          };
+
+          // If the response is an array, try the first non-empty candidate
+          if (Array.isArray(resp)) {
+            for (const candidate of resp) {
+              if (!candidate) continue;
+              if (typeof candidate === 'string') {
+                if (candidate.trim()) { text = candidate; break; }
+                continue;
+              }
+              if (typeof candidate?.text === 'function') {
+                const t = await candidate.text();
+                if (t && String(t).trim().length > 0) { text = String(t); break; }
+              } else if (typeof candidate?.content === 'string') {
+                if ((candidate as any).content.trim()) { text = (candidate as any).content; break; }
+              }
             }
-          } catch (logErr) {
-            console.warn('[Chapi DEBUG] Could not inspect Gemini response object:', logErr);
+          } else if (resp) {
+            if (typeof resp === 'string') {
+              text = resp;
+            } else if (typeof resp?.text === 'function') {
+              text = await (resp as any).text();
+            } else if (typeof (resp as any)?.content === 'string') {
+              text = (resp as any).content;
+            } else {
+              // last resort: stringify a small part for debugging
+              text = resp ? String(resp) : '';
+            }
           }
+
+          // If the model was cut due to MAX_TOKENS, try to continue a couple times
+          const primaryFinish = (respObj?.candidates && respObj?.candidates[0]?.finishReason) || respObj?.finishReason || null;
+          if ((primaryFinish === 'MAX_TOKENS' || primaryFinish === 'max_tokens') && text) {
+            console.warn('[Chapi DEBUG] Gemini finished with MAX_TOKENS — attempting up to 2 continuations');
+            let contAttempts = 0;
+            const MAX_CONTINUATIONS = 2;
+            while (contAttempts < MAX_CONTINUATIONS) {
+              contAttempts++;
+              try {
+                const contResult = await chat.sendMessage('Por favor, continúa la respuesta.');
+                const contResp = await (contResult?.response);
+                // try to extract continuation text
+                let contText = '';
+                if (Array.isArray(contResp)) {
+                  for (const candidate of contResp) {
+                    if (!candidate) continue;
+                    if (typeof candidate?.text === 'function') {
+                      const t = await candidate.text(); if (t && String(t).trim()) { contText = String(t).trim(); break; }
+                    } else if (typeof (candidate as any)?.content === 'string' && (candidate as any).content.trim()) { contText = (candidate as any).content.trim(); break; }
+                    else if (candidate?.content?.parts && Array.isArray(candidate.content.parts)) {
+                      for (const p of candidate.content.parts) { if (p?.text && String(p.text).trim()) { contText = String(p.text).trim(); break; } }
+                      if (contText) break;
+                    }
+                  }
+                } else if (contResp) {
+                  if (typeof (contResp as any) === 'string' && (contResp as any).trim()) contText = (contResp as any);
+                  else if (typeof (contResp as any)?.text === 'function') { contText = await (contResp as any).text(); }
+                  else if (typeof (contResp as any)?.content === 'string') contText = (contResp as any).content;
+                }
+
+                if (contText && String(contText).trim()) {
+                  text = (text.trim() + '\n\n' + contText.trim()).trim();
+                  const contFinish = ((contResp as any)?.candidates && (contResp as any)?.candidates[0]?.finishReason) || (contResp as any)?.finishReason || null;
+                  if (contFinish !== 'MAX_TOKENS' && contFinish !== 'max_tokens') break;
+                } else {
+                  break;
+                }
+              } catch (ce) {
+                console.warn('[Chapi DEBUG] continuation attempt failed:', ce);
+                break;
+              }
+            }
+          }
+
+          // If still empty, log detailed diagnostic info (safe-serialized)
+          if (!text || String(text).trim().length === 0) {
+            console.warn('[Chapi DEBUG] Gemini returned empty/blank output. Inspecting result/response...');
+            try { console.warn('[Chapi DEBUG] result keys:', Object.keys(result || {})); } catch(_){}
+            try { console.debug('[Chapi DEBUG] response (sample):', safeStringify(resp)); } catch(_){}
+
+            // Build a richer deterministic fallback so the user gets useful info
+            try {
+              if (Array.isArray(articulosRelevantes) && articulosRelevantes.length > 0) {
+                const top4 = articulosRelevantes.slice(0, 4);
+                const topLines = top4.map((a, idx) => {
+                  const title = a.titulo ? ` - ${a.titulo}` : '';
+                  const snippet = (a.contenido || '').replace(/\s+/g, ' ').trim().slice(0, 200);
+                  return `${idx + 1}. ${a.ley} Art ${a.numero}${title}: ${snippet}...`;
+                });
+
+                const fallback = `Disculpa, el servicio de IA no devolvió texto. Mientras tanto, aquí hay referencias relevantes que pueden ayudarte:\n${topLines.join('\n')}\n\nResponde con el número (1-${top4.length}) para que te muestre el texto completo del artículo, o escribe "más" para intentar otra búsqueda.`;
+                return fallback;
+              }
+            } catch (fx) {
+              console.warn('[Chapi DEBUG] fallback generation failed:', fx);
+            }
+
+            return "Disculpa, el servicio de IA no respondió. Por favor intenta de nuevo más tarde.";
+          }
+        } catch (extractErr) {
+          console.warn('[Chapi DEBUG] Error extracting text from Gemini response:', extractErr);
         }
 
         return text || "Lo siento, no pude procesar tu consulta. ¿Podrías intentar de nuevo?";
