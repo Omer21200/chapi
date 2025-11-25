@@ -143,6 +143,25 @@ class LegalArticlesManager {
       a => a.ley.toLowerCase() === ley.toLowerCase() && a.numero === numero
     );
   }
+
+  // Devuelve el total de artículos cargados
+  getTotalArticulos() {
+    return this.articulos.length;
+  }
+
+  // Formatea un conjunto de artículos para insertar como contexto en el modelo
+  formatearArticulosParaContexto(arts: ArticuloCompleto[]) {
+    if (!arts || arts.length === 0) return "";
+    return (
+      "\n\nARTÍCULOS LEGALES RELEVANTES\n" +
+      "==================================================\n\n" +
+      arts
+        .map(
+          a => `[${a.ley} - Artículo ${a.numero}: ${a.titulo}]\n${a.contenido}\n\n--------------------------------------------------\n`
+        )
+        .join("")
+    );
+  }
 }
 
 export const legalArticlesManager = new LegalArticlesManager();
