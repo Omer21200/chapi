@@ -10,7 +10,8 @@ const model = genAI.getGenerativeModel({
     maxOutputTokens: 2000
   }
 });
-
+   
+ 
 /* ============================================================
    FORMATEADOR COMPACTO
    ============================================================ */
@@ -103,6 +104,14 @@ export async function getChapiResponse(
 
     // Unificar mensaje del usuario
     const MAX_LEN = 2000;
+    // Manejo de despedidas: si el usuario escribe una despedida común,
+    // respondemos con la despedida larga solicitada sin invocar al modelo.
+    const trimmedMsg = (userMessage || "").trim();
+    const normalizedForFarewell = trimmedMsg.toLowerCase();
+    if (/\b(adios|adiós|chao|chau|hasta luego|nos vemos|bye|goodbye)\b/i.test(normalizedForFarewell)) {
+      return "Muchas gracias por usarme 😊 No olvides consultarme cada vez que me necesites. ¡Conduce con precaución! 🚗";
+    }
+
     let finalMsg = resumenLegal + "Pregunta: " + userMessage;
     if (finalMsg.length > MAX_LEN)
       finalMsg = finalMsg.slice(0, MAX_LEN) + "\n\n[Contexto recortado]";
@@ -126,7 +135,27 @@ export async function getChapiResponse(
           text += "\n" + extra;
         }
 
-        return formatCompactReply(text, userMessage);
+                // Detectar si el modelo inicia con un párrafo que parece saludo.
+                let cleaned = text;
+                try {
+                  const firstParagraphMatch = cleaned.match(/^[\s\S]*?(?:\n\s*\n|$)/);
+                  const firstParagraph = firstParagraphMatch ? firstParagraphMatch[0].trim() : '';
+
+                  // Patrón amplio para detectar saludos o presentaciones que mencionen a Chapi
+                  const greetingPattern = /^(?:¡?hola\b|buenas\b|buen día\b|buenas tardes\b|buenas noches\b|soy chapi\b|como chapi\b|como tu asistente\b).*$/i;
+
+                  if (greetingPattern.test(firstParagraph) || /\bchapi\b/i.test(firstParagraph)) {
+                    // Eliminar el primer párrafo (saludo del modelo) para evitar duplicados
+                    cleaned = cleaned.replace(/^[\s\S]*?(?:\n\s*\n|$)/, '').trim();
+                  }
+                } catch (e) {
+                  // en caso de error dejamos el texto original
+                }
+
+                const bodyText = cleaned.length ? cleaned : text;
+                const responseWithGreeting = "";
+
+                return formatCompactReply(responseWithGreeting, userMessage);
       } catch (err: any) {
         lastErr = err;
         if ([429, 503].includes(err?.status)) {
@@ -135,6 +164,7 @@ export async function getChapiResponse(
         }
         throw err;
       }
+
     }
 
     throw lastErr;
